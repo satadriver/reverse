@@ -1,0 +1,4546 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{bdd7cfb4-bb7a-4b7c-af09-fb01d2901c94}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{f0c558be-911c-4b53-9e61-0487ab66d1d0}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="基本数据结构">
+      <UniqueIdentifier>{33ac6553-a1b8-4164-a23e-ed43d745df40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="认证">
+      <UniqueIdentifier>{c6504a4f-f30e-4d46-9240-56e9202e232b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="基类">
+      <UniqueIdentifier>{18ce88ea-9b75-4eec-9272-96d6d284b66b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UNIP">
+      <UniqueIdentifier>{ff97ea63-53c1-4ea8-af80-355180795c3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SMTP">
+      <UniqueIdentifier>{2cc40b3f-e2a3-4185-9b8e-a3df9246f09b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="POP3">
+      <UniqueIdentifier>{2a113392-5458-4aa3-bfe8-b443ae85a83e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FTP">
+      <UniqueIdentifier>{12995f69-dfb1-4d43-aa28-14082ba7770b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="音视频">
+      <UniqueIdentifier>{95c489e0-65ad-429e-941e-1ad4e6117f4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="即时消息">
+      <UniqueIdentifier>{d2c803c6-c5b2-492e-a0b2-1b2d7ee9fc7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="即时消息\淘宝">
+      <UniqueIdentifier>{55061745-d897-4e7d-a02a-56299f8d0001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="即时消息\新浪UC">
+      <UniqueIdentifier>{38042eee-e52d-4211-9806-cde8b4c2b14c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="即时消息\SQL">
+      <UniqueIdentifier>{ab68a853-d182-4e35-8085-ca3a6331f0f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="即时消息\money">
+      <UniqueIdentifier>{c2ca5a91-e8ca-4d87-aff5-a969f3ade02a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="即时消息\手机QQ">
+      <UniqueIdentifier>{fc0bde86-4799-4583-a34b-9ce0d7babb74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTP">
+      <UniqueIdentifier>{095592ad-4618-4c57-828a-deeaf0958015}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTP\Nog">
+      <UniqueIdentifier>{2c74e541-000f-43d9-bf0a-b71ff8a158b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTP\thunder">
+      <UniqueIdentifier>{409a0e07-1d40-4235-9446-0d39ae34ba53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTP\EMail">
+      <UniqueIdentifier>{4e4e0031-e83f-4712-aabe-6b8470f589d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTP\Shopping">
+      <UniqueIdentifier>{a503c228-4cbd-494f-ab2d-604d1450a359}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTP\Contacts">
+      <UniqueIdentifier>{690b3cd0-430f-4b77-adfc-c6f697fea4df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTP\Reading">
+      <UniqueIdentifier>{0915eec4-ee42-4a0f-a4dc-ff4f5e903325}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTP\MediaPlatform">
+      <UniqueIdentifier>{1a2b2431-6ffe-4542-89b2-848750bff518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTP\Taxi">
+      <UniqueIdentifier>{c1803e9e-6e3e-4c63-b5b2-e35a2f69d3cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTP\Forum">
+      <UniqueIdentifier>{dcb07362-cb35-44b1-adfe-a5bd21673895}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTP\Blog">
+      <UniqueIdentifier>{19e79979-89b2-40c7-a908-c619c71c5255}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTP\Location">
+      <UniqueIdentifier>{bf649fd4-04f8-4b6c-ac2e-3024b18c4f30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTP\Installed">
+      <UniqueIdentifier>{4a2e905f-57c1-4b38-9dd9-0b47350bb129}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTP\Chating">
+      <UniqueIdentifier>{06796fda-4cd8-47ab-a758-ddab749652f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTP\Chating\Running">
+      <UniqueIdentifier>{4a412d38-3609-4450-9f77-d9ccea1182a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTP\Account">
+      <UniqueIdentifier>{60cd8b97-18ba-4fe2-b790-43b6e4b8576f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTP\PhoneDevice">
+      <UniqueIdentifier>{6ccf4134-0ef8-4056-81e5-0f0265152f51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTP\ComputerDevice">
+      <UniqueIdentifier>{59dad892-7e39-44fe-8b23-15c785105eaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTP\RealName">
+      <UniqueIdentifier>{b1d181aa-c7f7-4aa6-aba6-e71eec3eab68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTP\PhoneInfo">
+      <UniqueIdentifier>{f46a1823-96bf-4059-b062-d58ebf747a91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTP\PRO">
+      <UniqueIdentifier>{9ef1d693-bc86-4236-9167-8945f2887ef3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTP\PRO\Attached">
+      <UniqueIdentifier>{1939b883-02db-46ee-841b-61cef63a8e97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTP\QQPIM">
+      <UniqueIdentifier>{076fce39-6b8a-4e32-b1d1-6de8d2d4c472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTP\Cloud">
+      <UniqueIdentifier>{395400dc-8a48-4aac-b637-0635b1db1e25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTP\Traffic">
+      <UniqueIdentifier>{56ee26de-97de-4e17-97c2-4d8433074c1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTP\KuaiDi">
+      <UniqueIdentifier>{66a051a3-8396-43cd-8ba6-66fc263270ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTP\Airplane">
+      <UniqueIdentifier>{2fd9da65-3d42-4ed8-9715-323df0cda9c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTP\HardwareInfo">
+      <UniqueIdentifier>{c22de433-0b43-4daf-b705-3d5c21d32a87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTP\Employ">
+      <UniqueIdentifier>{4c8be74e-4291-47ba-a0d5-5b9e9c8e7d73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTP\Search">
+      <UniqueIdentifier>{ae47d11c-57a8-40d2-989e-20f3aa06c31e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTP\VideoActivity">
+      <UniqueIdentifier>{fd07ad25-a932-45e9-b629-8e0c808d14d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTP\WebSite">
+      <UniqueIdentifier>{a4182964-b168-4080-9366-3c964d3efbef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTP\Marriage">
+      <UniqueIdentifier>{cfddc455-a294-4871-9ddb-8c63c7bdce90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTP\FileTransfer">
+      <UniqueIdentifier>{78f2087c-6e51-4c86-b7e2-c106581b8493}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTP\Hotel">
+      <UniqueIdentifier>{1c23a10f-7ae3-48f1-aec7-a7ff8cf7dc5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTP\Software">
+      <UniqueIdentifier>{d2a3f7c3-68fc-4ace-9f07-684b8d62f2ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTP\Supply">
+      <UniqueIdentifier>{52b008a9-6246-4db0-870f-b105c92ae8e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTP\InterfaceLogin">
+      <UniqueIdentifier>{23eadb83-4934-4f34-a04e-e52796520b8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SyncPara">
+      <UniqueIdentifier>{9ab77d30-356c-482e-97d2-a6a60b523b7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="compress">
+      <UniqueIdentifier>{3f739723-69ca-4543-a28a-2c5300ff6d8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="手机软件">
+      <UniqueIdentifier>{4ad15029-cb42-4b5a-93e0-560287366c6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="json">
+      <UniqueIdentifier>{1e1a694a-d1b6-47af-b263-128c18997e64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="json\jsonjson">
+      <UniqueIdentifier>{3d698430-5250-459a-8105-85df7f790e92}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\Compress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\DCE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\DceInit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Getmoniterweb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\IdcIpLib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\IDCServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\IpQueryLib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Language.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LimitPara.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LoadModule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\PhoneNumberLocation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ProMission.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\PubClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\PubFunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\PubFunc2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\PubVar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\rbstringarray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ReadDDeFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\RealipMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ServerState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\StatAgent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\StatKey.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\VOIP_CALL.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\WebHisTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\NatAuth.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Algorithm.cpp">
+      <Filter>基本数据结构</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\AAA.cpp">
+      <Filter>认证</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\BTreeSeach.cpp">
+      <Filter>基类</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\dbgswitch.cpp">
+      <Filter>基类</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\DceMission.cpp">
+      <Filter>基类</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\SocketSession.cpp">
+      <Filter>基类</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\zwsqldb.cpp">
+      <Filter>基类</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Unip.cpp">
+      <Filter>UNIP</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\UnipSession.cpp">
+      <Filter>UNIP</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\SMTP\smtp.cpp">
+      <Filter>SMTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\SMTP\SmtpMailFile.cpp">
+      <Filter>SMTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\SMTP\SmtpSession.cpp">
+      <Filter>SMTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\POP3\ImapSession.cpp">
+      <Filter>POP3</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\POP3\pop3.cpp">
+      <Filter>POP3</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\POP3\Pop3MailFile.cpp">
+      <Filter>POP3</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\POP3\Pop3Session.cpp">
+      <Filter>POP3</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\FTP\eMule.cpp">
+      <Filter>FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\FTP\ftp.cpp">
+      <Filter>FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\FTP\FtpSession.cpp">
+      <Filter>FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\FTP\IrcSession.cpp">
+      <Filter>FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\pcanywhere.cpp">
+      <Filter>FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\FTP\Radmin.cpp">
+      <Filter>FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\ssh.cpp">
+      <Filter>FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\FTP\TelnetSession.cpp">
+      <Filter>FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\FTP\Terminal.cpp">
+      <Filter>FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\FTP\Vnc.cpp">
+      <Filter>FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Media\BDCVideo.cpp">
+      <Filter>音视频</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Media\blueskyvideo.Cpp">
+      <Filter>音视频</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Media\DoShowVideo.cpp">
+      <Filter>音视频</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Media\FlashVFun.cpp">
+      <Filter>音视频</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Media\FlashVideo.cpp">
+      <Filter>音视频</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Media\FreeGateFinder.cpp">
+      <Filter>音视频</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Media\ISAudioSession.cpp">
+      <Filter>音视频</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Media\KKSession.cpp">
+      <Filter>音视频</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Media\Media.cpp">
+      <Filter>音视频</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Media\MediaSession.cpp">
+      <Filter>音视频</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Media\MsnVideo.Cpp">
+      <Filter>音视频</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Media\PopoVideo.Cpp">
+      <Filter>音视频</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Media\QQVideo.cpp">
+      <Filter>音视频</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Media\SQQvideo.Cpp">
+      <Filter>音视频</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Media\StreamRTSP.cpp">
+      <Filter>音视频</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Media\UcVideo.cpp">
+      <Filter>音视频</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Media\UUTong.cpp">
+      <Filter>音视频</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Media\vgate.cpp">
+      <Filter>音视频</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Media\voip.cpp">
+      <Filter>音视频</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Media\Voip97CallSession.cpp">
+      <Filter>音视频</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Media\VoipALICallSession.cpp">
+      <Filter>音视频</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Media\VoipCloudCallSession.cpp">
+      <Filter>音视频</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Media\VoipDYTSession.cpp">
+      <Filter>音视频</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Media\VoipETSession.cpp">
+      <Filter>音视频</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Media\VoipHHCallSession.cpp">
+      <Filter>音视频</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Media\VoipHHTSession.cpp">
+      <Filter>音视频</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Media\VoipKBCALLSession.cpp">
+      <Filter>音视频</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Media\VoipKCSession.cpp">
+      <Filter>音视频</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Media\VoipKuBaoSession.cpp">
+      <Filter>音视频</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Media\VoipMedia.cpp">
+      <Filter>音视频</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Media\VoipMobileAILIAOSession.cpp">
+      <Filter>音视频</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Media\VoipMobileG723Session.cpp">
+      <Filter>音视频</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Media\VoipMobileHHCALLSession.cpp">
+      <Filter>音视频</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Media\VoipMobileKBCALLSession.cpp">
+      <Filter>音视频</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Media\VoipMobileTTSession.cpp">
+      <Filter>音视频</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Media\VoipQQ.cpp">
+      <Filter>音视频</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Media\VoipTalkBox.cpp">
+      <Filter>音视频</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Media\VoipUXinSession.cpp">
+      <Filter>音视频</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Media\VoipYMCallSession.cpp">
+      <Filter>音视频</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Media\VpVideo.Cpp">
+      <Filter>音视频</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Media\YahooVideo.Cpp">
+      <Filter>音视频</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Media\YYAudio.cpp">
+      <Filter>音视频</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Media\ZelloAudio.cpp">
+      <Filter>音视频</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\IMSG\des.cpp">
+      <Filter>即时消息\淘宝</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\IMSG\TaoBao1.cpp">
+      <Filter>即时消息\淘宝</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\IMSG\TaoBaoDecode.cpp">
+      <Filter>即时消息\淘宝</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\IMSG\Uc.cpp">
+      <Filter>即时消息\新浪UC</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\IMSG\uccrypt.c">
+      <Filter>即时消息\新浪UC</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\IMSG\mysql.cpp">
+      <Filter>即时消息\SQL</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\IMSG\SqlTDS.cpp">
+      <Filter>即时消息\SQL</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\IMSG\daying.cpp">
+      <Filter>即时消息\money</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\IMSG\Dzh.cpp">
+      <Filter>即时消息\money</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\IMSG\mobileqq.cpp">
+      <Filter>即时消息\手机QQ</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\IMSG\public.cpp">
+      <Filter>即时消息\手机QQ</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\IMSG\Bf.cpp">
+      <Filter>即时消息</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\IMSG\DOOM.CPP">
+      <Filter>即时消息</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\IMSG\EPH.CPP">
+      <Filter>即时消息</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\IMSG\Fetion.cpp">
+      <Filter>即时消息</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\IMSG\GTalk.cpp">
+      <Filter>即时消息</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\IMSG\HF.cpp">
+      <Filter>即时消息</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\IMSG\IcqAol.cpp">
+      <Filter>即时消息</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\IMSG\imsg.cpp">
+      <Filter>即时消息</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\IMSG\MaiQuan.cpp">
+      <Filter>即时消息</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\IMSG\Markup.cpp">
+      <Filter>即时消息</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\IMSG\Mir.cpp">
+      <Filter>即时消息</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\IMSG\MSN.cpp">
+      <Filter>即时消息</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\IMSG\MsnFunction.cpp">
+      <Filter>即时消息</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\IMSG\OICQ.cpp">
+      <Filter>即时消息</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\IMSG\OicqBuddy.cpp">
+      <Filter>即时消息</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\IMSG\ooVoo.cpp">
+      <Filter>即时消息</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\IMSG\OurGame.cpp">
+      <Filter>即时消息</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\IMSG\PerfectGame.cpp">
+      <Filter>即时消息</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\IMSG\QQFunc.cpp">
+      <Filter>即时消息</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\IMSG\QQGame.cpp">
+      <Filter>即时消息</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\IMSG\QQHeartbeat.cpp">
+      <Filter>即时消息</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\IMSG\QQTranFile.cpp">
+      <Filter>即时消息</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\IMSG\Soqq.cpp">
+      <Filter>即时消息</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\IMSG\VoipImsg.cpp">
+      <Filter>即时消息</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\IMSG\VP.cpp">
+      <Filter>即时消息</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\IMSG\WeMeet.cpp">
+      <Filter>即时消息</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\IMSG\wow.cpp">
+      <Filter>即时消息</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\IMSG\wuyiguagua.cpp">
+      <Filter>即时消息</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\IMSG\Xintiandi.cpp">
+      <Filter>即时消息</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\IMSG\YMsg.cpp">
+      <Filter>即时消息</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\FreeGateDec.cpp">
+      <Filter>HTTP\Nog</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\NogSession.cpp">
+      <Filter>HTTP\Nog</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\thread.cpp">
+      <Filter>HTTP\thunder</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\EMail\EMail.cpp">
+      <Filter>HTTP\EMail</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\EMail\EMail126.cpp">
+      <Filter>HTTP\EMail</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\EMail\EMail139.cpp">
+      <Filter>HTTP\EMail</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\EMail\EMail163.cpp">
+      <Filter>HTTP\EMail</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\EMail\EMail188.cpp">
+      <Filter>HTTP\EMail</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\EMail\EMail189.cpp">
+      <Filter>HTTP\EMail</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\EMail\EMail21CN.cpp">
+      <Filter>HTTP\EMail</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\EMail\EMailQQ.cpp">
+      <Filter>HTTP\EMail</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\EMail\EMailSina.cpp">
+      <Filter>HTTP\EMail</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\EMail\EMailSohu.cpp">
+      <Filter>HTTP\EMail</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\EMail\EMailTom.cpp">
+      <Filter>HTTP\EMail</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\EMail\EMailwo.cpp">
+      <Filter>HTTP\EMail</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\EMail\EMailYeah.cpp">
+      <Filter>HTTP\EMail</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Shopping\Shopping.cpp">
+      <Filter>HTTP\Shopping</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Shopping\ShoppingAiQiYiShangCheng.cpp">
+      <Filter>HTTP\Shopping</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Shopping\ShoppingBiShengKe.cpp">
+      <Filter>HTTP\Shopping</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Shopping\ShoppingDangDang.cpp">
+      <Filter>HTTP\Shopping</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Shopping\ShoppingFanKe.cpp">
+      <Filter>HTTP\Shopping</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Shopping\ShoppingGuoMei.cpp">
+      <Filter>HTTP\Shopping</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Shopping\ShoppingHaiLanZhiJia.cpp">
+      <Filter>HTTP\Shopping</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Shopping\ShoppingHanDuYiShe.cpp">
+      <Filter>HTTP\Shopping</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Shopping\ShoppingHaoLeMai.cpp">
+      <Filter>HTTP\Shopping</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Shopping\ShoppingJingDong.cpp">
+      <Filter>HTTP\Shopping</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Shopping\ShoppingJuMeiYouPin.cpp">
+      <Filter>HTTP\Shopping</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Shopping\ShoppingKaoLaHaiGou.cpp">
+      <Filter>HTTP\Shopping</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Shopping\ShoppingKFC.cpp">
+      <Filter>HTTP\Shopping</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Shopping\ShoppingKuaiLeGou.cpp">
+      <Filter>HTTP\Shopping</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Shopping\ShoppingLaShouWang.cpp">
+      <Filter>HTTP\Shopping</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Shopping\ShoppingLeFeng.cpp">
+      <Filter>HTTP\Shopping</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Shopping\ShoppingLeTao.cpp">
+      <Filter>HTTP\Shopping</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Shopping\ShoppingMaiHaoHao.cpp">
+      <Filter>HTTP\Shopping</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Shopping\ShoppingMaiLeGou.cpp">
+      <Filter>HTTP\Shopping</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Shopping\ShoppingMeiLiShuo.cpp">
+      <Filter>HTTP\Shopping</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Shopping\ShoppingMingXieKu.cpp">
+      <Filter>HTTP\Shopping</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Shopping\ShoppingMiYa.cpp">
+      <Filter>HTTP\Shopping</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Shopping\ShoppingMiZhe.cpp">
+      <Filter>HTTP\Shopping</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Shopping\ShoppingMoGuJie.cpp">
+      <Filter>HTTP\Shopping</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Shopping\ShoppingMoonBaSa.cpp">
+      <Filter>HTTP\Shopping</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Shopping\ShoppingNuoMi.cpp">
+      <Filter>HTTP\Shopping</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Shopping\ShoppingPaiPai.cpp">
+      <Filter>HTTP\Shopping</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Shopping\ShoppingSuNingYiGou.cpp">
+      <Filter>HTTP\Shopping</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Shopping\ShoppingTaoBao.cpp">
+      <Filter>HTTP\Shopping</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Shopping\ShoppingTMall.cpp">
+      <Filter>HTTP\Shopping</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Shopping\ShoppingTuan800.cpp">
+      <Filter>HTTP\Shopping</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Shopping\ShoppingWeiPinHui.cpp">
+      <Filter>HTTP\Shopping</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Shopping\ShoppingWoWoTuanGou.cpp">
+      <Filter>HTTP\Shopping</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Shopping\ShoppingYiHaoDian.cpp">
+      <Filter>HTTP\Shopping</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Shopping\ShoppingYinYueShangCheng.cpp">
+      <Filter>HTTP\Shopping</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Shopping\ShoppingYoHoBuy.cpp">
+      <Filter>HTTP\Shopping</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Shopping\ShoppingYouGou.cpp">
+      <Filter>HTTP\Shopping</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Shopping\ShoppingZhe800.cpp">
+      <Filter>HTTP\Shopping</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Shopping\ShoppingZhenPin.cpp">
+      <Filter>HTTP\Shopping</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Contacts\Contacts.cpp">
+      <Filter>HTTP\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Contacts\Contacts1616.cpp">
+      <Filter>HTTP\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Contacts\Contacts4GVOIP.cpp">
+      <Filter>HTTP\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Contacts\Contacts91ZhuShou.cpp">
+      <Filter>HTTP\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Contacts\ContactsBaiSiBuDeJie.cpp">
+      <Filter>HTTP\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Contacts\ContactsCaiYun.cpp">
+      <Filter>HTTP\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Contacts\ContactsDouGuo.cpp">
+      <Filter>HTTP\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Contacts\ContactsFeiXin.cpp">
+      <Filter>HTTP\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Contacts\ContactsFengYunZhiBo.cpp">
+      <Filter>HTTP\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Contacts\ContactsJinShanKuaiPan.cpp">
+      <Filter>HTTP\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Contacts\ContactsSinaWeibo.cpp">
+      <Filter>HTTP\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Contacts\ContactsXiMaLaYa.cpp">
+      <Filter>HTTP\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Contacts\ContactsYMall.cpp">
+      <Filter>HTTP\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Contacts\ContactsYouXin.cpp">
+      <Filter>HTTP\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Contacts\ContactsYuJian.cpp">
+      <Filter>HTTP\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Contacts\ContactsYYBackup.cpp">
+      <Filter>HTTP\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Reading\Reading.cpp">
+      <Filter>HTTP\Reading</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Reading\ReadingBaiDuXinWen.cpp">
+      <Filter>HTTP\Reading</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Reading\ReadingFengHuangXinWen.cpp">
+      <Filter>HTTP\Reading</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Reading\ReadingJinRiTouTiao.cpp">
+      <Filter>HTTP\Reading</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Reading\ReadingNeihanDuanZi.cpp">
+      <Filter>HTTP\Reading</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Reading\ReadingSouHuXinWen.cpp">
+      <Filter>HTTP\Reading</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Reading\ReadingTengXunXinWen.cpp">
+      <Filter>HTTP\Reading</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Reading\ReadingTianTianKuaiBao.cpp">
+      <Filter>HTTP\Reading</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Reading\ReadingWangYiXinWen.cpp">
+      <Filter>HTTP\Reading</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Reading\ReadingXinLangXinWen.cpp">
+      <Filter>HTTP\Reading</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Reading\ReadingZaker.cpp">
+      <Filter>HTTP\Reading</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\MediaPlatform\MediaPlatform.cpp">
+      <Filter>HTTP\MediaPlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Taxi\Taxi.cpp">
+      <Filter>HTTP\Taxi</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Taxi\TaxiDiDi.cpp">
+      <Filter>HTTP\Taxi</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Taxi\TaxiDiDiZhuanChe.cpp">
+      <Filter>HTTP\Taxi</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Taxi\TaxiKuaiDi.cpp">
+      <Filter>HTTP\Taxi</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Taxi\TaxiMobike.cpp">
+      <Filter>HTTP\Taxi</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Taxi\TaxiYiDaoYongChe.cpp">
+      <Filter>HTTP\Taxi</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Taxi\TaxiYiHaoZhuanChe.cpp">
+      <Filter>HTTP\Taxi</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Forum\Forum.cpp">
+      <Filter>HTTP\Forum</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Forum\ForumBaiduTieBa.cpp">
+      <Filter>HTTP\Forum</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Forum\ForumCSDN.cpp">
+      <Filter>HTTP\Forum</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Forum\ForumDiscuz.cpp">
+      <Filter>HTTP\Forum</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Forum\ForumMaoPu.cpp">
+      <Filter>HTTP\Forum</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Forum\ForumQQZone.cpp">
+      <Filter>HTTP\Forum</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Forum\ForumTianYa.cpp">
+      <Filter>HTTP\Forum</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Forum\ForumXiCiHuTong.cpp">
+      <Filter>HTTP\Forum</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Blog\Blog.cpp">
+      <Filter>HTTP\Blog</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Blog\BlogBokeeBlog.cpp">
+      <Filter>HTTP\Blog</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Blog\BlogFengHuangBlog.cpp">
+      <Filter>HTTP\Blog</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Blog\BlogHeXun.cpp">
+      <Filter>HTTP\Blog</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Blog\BlogPaPa.cpp">
+      <Filter>HTTP\Blog</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Blog\BlogSohuBlog.cpp">
+      <Filter>HTTP\Blog</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Blog\BlogTengXunWeiBo.cpp">
+      <Filter>HTTP\Blog</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Blog\BlogWangYiBlog.cpp">
+      <Filter>HTTP\Blog</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Blog\BlogWangYiLofter.cpp">
+      <Filter>HTTP\Blog</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Blog\BlogXinHuaBlog.cpp">
+      <Filter>HTTP\Blog</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Blog\BlogXinLangBlog.cpp">
+      <Filter>HTTP\Blog</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Blog\BlogXinLangWeiBo.cpp">
+      <Filter>HTTP\Blog</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\Location.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\Location365RiLi.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\Location58TongCheng.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\Location8684Bus.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationAiBa.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationAiChengShi.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationAiLiao.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationAnJuKe.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationBaiDuTuanGou.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationBaiDuWangYeDingWei.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationBaiHe.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationBaiXingWang.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationBlued.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationChangWuXian.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationCheLunChaWeiZhang.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationChinaDianXin.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationCtrip.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationDaMai.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationDaZhongDianPing.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationDingDingYouHui.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationDouBan.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationGanJi.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationGoZhuoMian.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationHeMap.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationHuangLiTianQi.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationJiaoTongWeiZhangChaXun.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationJingDianTeJia.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationJiShiTianQi.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationJuHuaSuan.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationKaiXinWang.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationKuaiLeBeiYun.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationKuGou.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationLaMaBang.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationLeDongLi.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationLingShengDuoDuo.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationLofter.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationLvMaMaLvYou.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationMaMaBang.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationMaMaQuan.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationMeiTuan.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationMianBaoLvXing.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationMiLiao.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationMoJiTianQi.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationMoMo.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationMoXiuZhuoMian.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationNuoMi.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationOTHER.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationPeiNiKanDianYing.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationQianChengWuYou.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationQingTingFM.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationQiuShiBaiKe.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationQuNaLvXing.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationRenMaiTong.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationRenRenWang.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationShengHuoRiLi.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationShiJiJiaYuan.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationSinaWeiBo.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationSouFangWang.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationSouHuGouFangZhuShou.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationSuiEXingWLAN.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationSuNingYiGou.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationTaoBao.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationTianQiXiangJi.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationTianYaSheQu.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationTongChengLvYou.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationTuan800.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationTuanGou.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationWangXin.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationWeiCheWeiZhang.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationWeiDaiJia.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationWIFIBanLv.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationWIFIWanNengYaoChi.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationWoChaCha.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationWuYa.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationXieShiPai.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationXiMaLaYa.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationYeDuShi.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationYiHaoDian.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationYouJia.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationYuanLaiHunLian.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationYueNi.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationZaker.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationZhangShangYaoDian.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationZhiLianZhaoPin.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Location\LocationZhouMoQuNa.cpp">
+      <Filter>HTTP\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Installed\Installed.cpp">
+      <Filter>HTTP\Installed</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Installed\Installed360AnQuanWeiShi.cpp">
+      <Filter>HTTP\Installed</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Installed\Installed360ShouJiAnQuanWeiShi.cpp">
+      <Filter>HTTP\Installed</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Installed\Installed91ZhuShou.cpp">
+      <Filter>HTTP\Installed</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Installed\InstalledAFanTi.cpp">
+      <Filter>HTTP\Installed</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Installed\InstalledALiYun.cpp">
+      <Filter>HTTP\Installed</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Installed\InstalledAnZhuoShiChang.cpp">
+      <Filter>HTTP\Installed</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Installed\InstalledBaiDuShouJiZhuShou.cpp">
+      <Filter>HTTP\Installed</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Installed\InstalledDouGuoMeiShi.cpp">
+      <Filter>HTTP\Installed</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Installed\InstalledHiCloud.cpp">
+      <Filter>HTTP\Installed</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Installed\InstalledKuaiYong.cpp">
+      <Filter>HTTP\Installed</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Installed\InstalledLianXiangShangDian.cpp">
+      <Filter>HTTP\Installed</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Installed\InstalledMeiZuYingYongShangDian.cpp">
+      <Filter>HTTP\Installed</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Installed\InstalledMmShangDian.cpp">
+      <Filter>HTTP\Installed</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Installed\InstalledOppoShangDian.cpp">
+      <Filter>HTTP\Installed</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Installed\InstalledPPzhushou.cpp">
+      <Filter>HTTP\Installed</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Installed\InstalledShouJiZhuShou360.cpp">
+      <Filter>HTTP\Installed</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Installed\InstalledSouGouZhuShou.cpp">
+      <Filter>HTTP\Installed</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Installed\InstalledVivoShangDian.cpp">
+      <Filter>HTTP\Installed</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Installed\InstalledWanDouJia.cpp">
+      <Filter>HTTP\Installed</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Installed\InstalledXiaoMiShangDian.cpp">
+      <Filter>HTTP\Installed</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Installed\InstalledYingYongBao.cpp">
+      <Filter>HTTP\Installed</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Installed\InstalledZhongXingShangDian.cpp">
+      <Filter>HTTP\Installed</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Running\Running.cpp">
+      <Filter>HTTP\Chating\Running</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Running\RunningAvast.cpp">
+      <Filter>HTTP\Chating\Running</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Running\RunningComodo.cpp">
+      <Filter>HTTP\Chating\Running</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Running\RunningFDM.cpp">
+      <Filter>HTTP\Chating\Running</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Running\RunningHeyTalk.cpp">
+      <Filter>HTTP\Chating\Running</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Running\RunningLine.cpp">
+      <Filter>HTTP\Chating\Running</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Running\RunningQianXun.cpp">
+      <Filter>HTTP\Chating\Running</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Running\RunningSkout.cpp">
+      <Filter>HTTP\Chating\Running</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Running\RunningTango.cpp">
+      <Filter>HTTP\Chating\Running</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Running\RunningViber.cpp">
+      <Filter>HTTP\Chating\Running</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Running\RunningXiaoHongSan.cpp">
+      <Filter>HTTP\Chating\Running</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Chating\Chating.cpp">
+      <Filter>HTTP\Chating</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Chating\ChatingAliIM.cpp">
+      <Filter>HTTP\Chating</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Chating\ChatingBiLin.cpp">
+      <Filter>HTTP\Chating</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Chating\ChatingFetion.cpp">
+      <Filter>HTTP\Chating</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Chating\ChatingLive800.cpp">
+      <Filter>HTTP\Chating</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Chating\ChatingMiLiao.cpp">
+      <Filter>HTTP\Chating</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Chating\ChatingProvideSupport.cpp">
+      <Filter>HTTP\Chating</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Chating\ChatingQQ.cpp">
+      <Filter>HTTP\Chating</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Chating\ChatingTalkBox.cpp">
+      <Filter>HTTP\Chating</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Chating\ChatingVoxer.cpp">
+      <Filter>HTTP\Chating</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Chating\ChatingWeiXin.cpp">
+      <Filter>HTTP\Chating</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Chating\ChatingYiXin.cpp">
+      <Filter>HTTP\Chating</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Chating\Telegram.cpp">
+      <Filter>HTTP\Chating</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Chating\Zello.cpp">
+      <Filter>HTTP\Chating</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Account\Account.cpp">
+      <Filter>HTTP\Account</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Account\AccountBaiDu.cpp">
+      <Filter>HTTP\Account</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneDevice\PhoneDevice.cpp">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneDevice\PhoneDevice2345ZhuShou.cpp">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneDevice\PhoneDevice360zhushou.cpp">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneDevice\PhoneDevice58TongCheng.cpp">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneDevice\PhoneDeviceAiQiYi.cpp">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneDevice\PhoneDeviceAnZhuoShiChang.cpp">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneDevice\PhoneDeviceBaiDuShouJiWeiShi.cpp">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneDevice\PhoneDeviceBaiDuTieBa.cpp">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneDevice\PhoneDeviceBaoFengYingYin.cpp">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneDevice\PhoneDeviceBiLin.cpp">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneDevice\PhoneDeviceChengPinKuaiPai.cpp">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneDevice\PhoneDeviceDaZhongDianPing.cpp">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneDevice\PhoneDeviceDouGuoMeiShi.cpp">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneDevice\PhoneDeviceFengHuangXinWen.cpp">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneDevice\PhoneDeviceHaoMaBaiShiTong.cpp">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneDevice\PhoneDeviceHiCloud.cpp">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneDevice\PhoneDeviceJingDong.cpp">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneDevice\PhoneDeviceJinShanDianChiYiSheng.cpp">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneDevice\PhoneDeviceKuaiShou.cpp">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneDevice\PhoneDeviceLianJia.cpp">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneDevice\PhoneDeviceLofter.cpp">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneDevice\PhoneDeviceMeiTuXiuXiu.cpp">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneDevice\PhoneDeviceMiaoPai.cpp">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneDevice\PhoneDeviceMiGu.cpp">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneDevice\PhoneDeviceMobike.cpp">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneDevice\PhoneDeviceMoJiTianQi.cpp">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneDevice\PhoneDeviceOTHER.cpp">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneDevice\PhoneDevicePPZhuShou.cpp">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneDevice\PhoneDeviceQuanMinKGe.cpp">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneDevice\PhoneDeviceSuiEXingWiFi.cpp">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneDevice\PhoneDeviceTaoBao.cpp">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneDevice\PhoneDeviceTengXunShiPin.cpp">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneDevice\PhoneDeviceTongHuaShun.cpp">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneDevice\PhoneDeviceTouTiao.cpp">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneDevice\PhoneDeviceWanDouJia.cpp">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneDevice\PhoneDeviceWangYiXinWen.cpp">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneDevice\PhoneDeviceWIFIWangNengYaoShi.cpp">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneDevice\PhoneDeviceXinLangWeiBo.cpp">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneDevice\PhoneDeviceYingYongBao.cpp">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneDevice\PhoneDeviceYiRenDai.cpp">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneDevice\PhoneDeviceYouDaoCiDian.cpp">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneDevice\PhoneDeviceYouKu.cpp">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneDevice\PhoneDeviceYueDongQuan.cpp">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneDevice\PhoneDeviceZhe800.cpp">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneDevice\PhoneDeviceZhiFuBaoQianBao.cpp">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneDevice\PhoneDeviceZhuanZhuan.cpp">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneDevice\PhoneDeviceZte.cpp">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\ComputerDevice\ComputerDevice.cpp">
+      <Filter>HTTP\ComputerDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\ComputerDevice\ComputerDevice360AnQuanWeiShi.cpp">
+      <Filter>HTTP\ComputerDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\ComputerDevice\ComputerDeviceUserAgent.cpp">
+      <Filter>HTTP\ComputerDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\RealName\RealName.cpp">
+      <Filter>HTTP\RealName</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\RealName\RealNameDongHang.cpp">
+      <Filter>HTTP\RealName</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\RealName\RealNameQiTian.cpp">
+      <Filter>HTTP\RealName</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\RealName\RealNameTrafficTongChengLvYou.cpp">
+      <Filter>HTTP\RealName</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\RealName\RealNameTrafficXieChengLvXing.cpp">
+      <Filter>HTTP\RealName</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\RealName\RealNameTrafficYiLong.cpp">
+      <Filter>HTTP\RealName</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\RealName\RealNameWeChat.cpp">
+      <Filter>HTTP\RealName</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\RealName\RealNameZhiFuBao.cpp">
+      <Filter>HTTP\RealName</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneInfo\PhoneInfo.cpp">
+      <Filter>HTTP\PhoneInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneInfo\PhoneInfoBaiDuShouJiWeiShi.cpp">
+      <Filter>HTTP\PhoneInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneInfo\PhoneInfoPPTV.cpp">
+      <Filter>HTTP\PhoneInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneInfo\PhoneInfoTaoBao.cpp">
+      <Filter>HTTP\PhoneInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneInfo\PhoneInfoTengXunNews.cpp">
+      <Filter>HTTP\PhoneInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneInfo\PhoneInfoTengXunShiPin.cpp">
+      <Filter>HTTP\PhoneInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneInfo\PhoneInfoTianMiao.cpp">
+      <Filter>HTTP\PhoneInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneInfo\PhoneInfoYouKu.cpp">
+      <Filter>HTTP\PhoneInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneInfo\PhoneInfoZhiFuBaoQianBao.cpp">
+      <Filter>HTTP\PhoneInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneInfo\PhoneInfoZhuShou91.cpp">
+      <Filter>HTTP\PhoneInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\Attached\DeviceInfo.cpp">
+      <Filter>HTTP\PRO\Attached</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\AiQiYi.cpp">
+      <Filter>HTTP\PRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\AnQuanWeiShi360.cpp">
+      <Filter>HTTP\PRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\BaiDuTieBa.cpp">
+      <Filter>HTTP\PRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\Blued.cpp">
+      <Filter>HTTP\PRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\DaZhongDianPing.cpp">
+      <Filter>HTTP\PRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\DianXin.cpp">
+      <Filter>HTTP\PRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\DiDiDaChe.cpp">
+      <Filter>HTTP\PRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\Discuz.cpp">
+      <Filter>HTTP\PRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\FeiXin.cpp">
+      <Filter>HTTP\PRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\FengHuangXinWen.cpp">
+      <Filter>HTTP\PRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\GoZhuoMian.cpp">
+      <Filter>HTTP\PRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\JingDong.cpp">
+      <Filter>HTTP\PRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\JinShanDianChiYiSheng.cpp">
+      <Filter>HTTP\PRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\KuaiDiDaChe.cpp">
+      <Filter>HTTP\PRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\KuaiLeBeiYun.cpp">
+      <Filter>HTTP\PRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\KuaiYong.cpp">
+      <Filter>HTTP\PRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\MaoPu.cpp">
+      <Filter>HTTP\PRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\MBaiDuCom.cpp">
+      <Filter>HTTP\PRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\MeiTuXiuXiu.cpp">
+      <Filter>HTTP\PRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\MeiZuShangDian.cpp">
+      <Filter>HTTP\PRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\MiLiao.cpp">
+      <Filter>HTTP\PRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\MoJiTianQi.cpp">
+      <Filter>HTTP\PRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\MoXiuZhuoMian.cpp">
+      <Filter>HTTP\PRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\PaPa.cpp">
+      <Filter>HTTP\PRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\QianChengWuYou.cpp">
+      <Filter>HTTP\PRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\QQ.cpp">
+      <Filter>HTTP\PRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\ShouJiWeiShi360.cpp">
+      <Filter>HTTP\PRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\SouGouZhuShou.cpp">
+      <Filter>HTTP\PRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\SouHuXinWen.cpp">
+      <Filter>HTTP\PRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\TalkBox.cpp">
+      <Filter>HTTP\PRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\TaoBao.cpp">
+      <Filter>HTTP\PRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\TengXunShiPin.cpp">
+      <Filter>HTTP\PRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\TengXunWeiBo.cpp">
+      <Filter>HTTP\PRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\TengXunXinWen.cpp">
+      <Filter>HTTP\PRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\TianMao.cpp">
+      <Filter>HTTP\PRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\TianYa.cpp">
+      <Filter>HTTP\PRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\TongChengLvYou.cpp">
+      <Filter>HTTP\PRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\Voxer.cpp">
+      <Filter>HTTP\PRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\WanDouJia.cpp">
+      <Filter>HTTP\PRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\WangYiXinWen.cpp">
+      <Filter>HTTP\PRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\WeiXin.cpp">
+      <Filter>HTTP\PRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\XiaoMiShangDian.cpp">
+      <Filter>HTTP\PRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\XieChengLvXing.cpp">
+      <Filter>HTTP\PRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\XinLangWeiBo.cpp">
+      <Filter>HTTP\PRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\XinLangXinWen.cpp">
+      <Filter>HTTP\PRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\YiXin.cpp">
+      <Filter>HTTP\PRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\YouKu.cpp">
+      <Filter>HTTP\PRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\ZhiFuBaoQianBao.cpp">
+      <Filter>HTTP\PRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\ZhiLianZhaoPin.cpp">
+      <Filter>HTTP\PRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PRO\ZhuShou91.cpp">
+      <Filter>HTTP\PRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\QQPIM\QQPhoneBook.cpp">
+      <Filter>HTTP\QQPIM</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\QQPIM\QQSyncAsist.cpp">
+      <Filter>HTTP\QQPIM</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\QQPIM\QQSyncAsistPub.cpp">
+      <Filter>HTTP\QQPIM</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\QQPIM\WechatContact.cpp">
+      <Filter>HTTP\QQPIM</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Cloud\YunPan.cpp">
+      <Filter>HTTP\Cloud</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Cloud\YunPan360.cpp">
+      <Filter>HTTP\Cloud</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Cloud\YunPanBaiDu.cpp">
+      <Filter>HTTP\Cloud</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Cloud\YunPanHuaWei.cpp">
+      <Filter>HTTP\Cloud</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Cloud\YunPanTengXun.cpp">
+      <Filter>HTTP\Cloud</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Cloud\YunPanTianYi.cpp">
+      <Filter>HTTP\Cloud</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Cloud\YunPanWangYi.cpp">
+      <Filter>HTTP\Cloud</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Cloud\YunPanXinLang.cpp">
+      <Filter>HTTP\Cloud</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\traffic\Lvmamalvyou.cpp">
+      <Filter>HTTP\Traffic</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\traffic\MangGuo.cpp">
+      <Filter>HTTP\Traffic</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\traffic\PiaoWu114.cpp">
+      <Filter>HTTP\Traffic</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\traffic\QiChePiao.cpp">
+      <Filter>HTTP\Traffic</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\traffic\Qunaer.cpp">
+      <Filter>HTTP\Traffic</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\traffic\Tongcheng.cpp">
+      <Filter>HTTP\Traffic</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\traffic\Traffic.cpp">
+      <Filter>HTTP\Traffic</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\traffic\Tuniu.cpp">
+      <Filter>HTTP\Traffic</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\traffic\Xiecheng.cpp">
+      <Filter>HTTP\Traffic</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\traffic\Yilong.cpp">
+      <Filter>HTTP\Traffic</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\KuaiDi\EMS.cpp">
+      <Filter>HTTP\KuaiDi</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\KuaiDi\KuaiDi.cpp">
+      <Filter>HTTP\KuaiDi</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\KuaiDi\ShenTong.cpp">
+      <Filter>HTTP\KuaiDi</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\KuaiDi\ShunFeng.cpp">
+      <Filter>HTTP\KuaiDi</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\KuaiDi\TianTiankuaidi.cpp">
+      <Filter>HTTP\KuaiDi</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\KuaiDi\YuanTong.cpp">
+      <Filter>HTTP\KuaiDi</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\KuaiDi\YunDa.cpp">
+      <Filter>HTTP\KuaiDi</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\KuaiDi\ZhaiJiSong.cpp">
+      <Filter>HTTP\KuaiDi</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\KuaiDi\ZhongTong.cpp">
+      <Filter>HTTP\KuaiDi</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Airplane\ChinaEastern.cpp">
+      <Filter>HTTP\Airplane</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Airplane\ChinaHainan.cpp">
+      <Filter>HTTP\Airplane</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Airplane\ChinaSouthern.cpp">
+      <Filter>HTTP\Airplane</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Airplane\Plane.cpp">
+      <Filter>HTTP\Airplane</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Airplane\PlaneAirChina.cpp">
+      <Filter>HTTP\Airplane</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Airplane\PlaneCaptialAirlines.cpp">
+      <Filter>HTTP\Airplane</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Airplane\PlaneChunQiuAirlines.cpp">
+      <Filter>HTTP\Airplane</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Airplane\PlaneJuneYaoAir.cpp">
+      <Filter>HTTP\Airplane</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Airplane\PlaneLianHeAirlines.cpp">
+      <Filter>HTTP\Airplane</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Airplane\PlaneQingDaoAirlines.cpp">
+      <Filter>HTTP\Airplane</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Airplane\PlaneShanDongAirlines.cpp">
+      <Filter>HTTP\Airplane</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Airplane\PlaneShenZhenAirlines.cpp">
+      <Filter>HTTP\Airplane</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Airplane\PlaneSiChuanAirlines.cpp">
+      <Filter>HTTP\Airplane</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Airplane\PlaneXiaMenAirlines.cpp">
+      <Filter>HTTP\Airplane</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Airplane\PlaneXingFuAirlines.cpp">
+      <Filter>HTTP\Airplane</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\HardwareInfo\hardware360.cpp">
+      <Filter>HTTP\HardwareInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\HardwareInfo\hardwarebaiduchuanke.cpp">
+      <Filter>HTTP\HardwareInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\HardwareInfo\hardwarebaiduditu.cpp">
+      <Filter>HTTP\HardwareInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\HardwareInfo\hardwarebaiduyunpan.cpp">
+      <Filter>HTTP\HardwareInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\HardwareInfo\hardwareboke.cpp">
+      <Filter>HTTP\HardwareInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\HardwareInfo\hardwareduba.cpp">
+      <Filter>HTTP\HardwareInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\HardwareInfo\hardwareimooc.cpp">
+      <Filter>HTTP\HardwareInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\HardwareInfo\HardwareInfo.cpp">
+      <Filter>HTTP\HardwareInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\HardwareInfo\hardwareiqiyi.cpp">
+      <Filter>HTTP\HardwareInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\HardwareInfo\hardwarejumeiyoupin.cpp">
+      <Filter>HTTP\HardwareInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\HardwareInfo\hardwarekugou.cpp">
+      <Filter>HTTP\HardwareInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\HardwareInfo\hardwareliantong.cpp">
+      <Filter>HTTP\HardwareInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\HardwareInfo\hardwaremangguo.cpp">
+      <Filter>HTTP\HardwareInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\HardwareInfo\hardwaretaobao.cpp">
+      <Filter>HTTP\HardwareInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\HardwareInfo\hardwaretengxunshipin.cpp">
+      <Filter>HTTP\HardwareInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\HardwareInfo\hardwareweibo.cpp">
+      <Filter>HTTP\HardwareInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\HardwareInfo\hardwarexunlei.cpp">
+      <Filter>HTTP\HardwareInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Employ\Employ.cpp">
+      <Filter>HTTP\Employ</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Employ\Employ51Job.cpp">
+      <Filter>HTTP\Employ</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Employ\Employ58TongCheng.cpp">
+      <Filter>HTTP\Employ</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Employ\EmployGanJi.cpp">
+      <Filter>HTTP\Employ</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Employ\EmployKanZhunWang.cpp">
+      <Filter>HTTP\Employ</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Employ\EmployQiLuRenCai.cpp">
+      <Filter>HTTP\Employ</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Employ\EmployRuoLin.cpp">
+      <Filter>HTTP\Employ</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Employ\EmployShuZiYingCai.cpp">
+      <Filter>HTTP\Employ</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Employ\EmployXinJieWang.cpp">
+      <Filter>HTTP\Employ</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Employ\EmployYiLanYingCai.cpp">
+      <Filter>HTTP\Employ</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Employ\EmployZhiLianZhaoPin.cpp">
+      <Filter>HTTP\Employ</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Employ\EmployZhiTong.cpp">
+      <Filter>HTTP\Employ</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Employ\EmployZhiYouJi.cpp">
+      <Filter>HTTP\Employ</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Employ\EmployZhongGuoRenCai.cpp">
+      <Filter>HTTP\Employ</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Employ\EmployZhongHuaYingCai.cpp">
+      <Filter>HTTP\Employ</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Employ\EmployZhuoBo.cpp">
+      <Filter>HTTP\Employ</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Search\Search.cpp">
+      <Filter>HTTP\Search</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Search\SearchChinaSo.cpp">
+      <Filter>HTTP\Search</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Search\SearchSina.cpp">
+      <Filter>HTTP\Search</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Search\SearchSo360.cpp">
+      <Filter>HTTP\Search</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Search\SearchSoChina.cpp">
+      <Filter>HTTP\Search</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\VideoActivity\VideoActivity.cpp">
+      <Filter>HTTP\VideoActivity</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\VideoActivity\VideoActivityBaiDuYingYin.cpp">
+      <Filter>HTTP\VideoActivity</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\VideoActivity\VideoActivityBaoFengYingYin.cpp">
+      <Filter>HTTP\VideoActivity</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\VideoActivity\VideoActivityBiLiBiLi.cpp">
+      <Filter>HTTP\VideoActivity</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\VideoActivity\VideoActivityCCTV.cpp">
+      <Filter>HTTP\VideoActivity</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\VideoActivity\VideoActivityDiYiTV.cpp">
+      <Filter>HTTP\VideoActivity</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\VideoActivity\VideoActivityFun.cpp">
+      <Filter>HTTP\VideoActivity</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\VideoActivity\VideoActivityHuaShuTv.cpp">
+      <Filter>HTTP\VideoActivity</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\VideoActivity\VideoActivityIFeng.cpp">
+      <Filter>HTTP\VideoActivity</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\VideoActivity\VideoActivityIqiYi.cpp">
+      <Filter>HTTP\VideoActivity</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\VideoActivity\VideoActivityKuLiu.cpp">
+      <Filter>HTTP\VideoActivity</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\VideoActivity\VideoActivityLeShi.cpp">
+      <Filter>HTTP\VideoActivity</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\VideoActivity\VideoActivityMangGuoTV.cpp">
+      <Filter>HTTP\VideoActivity</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\VideoActivity\VideoActivityMiaoPai.cpp">
+      <Filter>HTTP\VideoActivity</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\VideoActivity\VideoActivityPPs.cpp">
+      <Filter>HTTP\VideoActivity</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\VideoActivity\VideoActivityPpTv.cpp">
+      <Filter>HTTP\VideoActivity</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\VideoActivity\VideoActivitySoHu.cpp">
+      <Filter>HTTP\VideoActivity</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\VideoActivity\VideoActivityTouTiao.cpp">
+      <Filter>HTTP\VideoActivity</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\VideoActivity\VideoActivityTuDou.cpp">
+      <Filter>HTTP\VideoActivity</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\VideoActivity\VideoActivityWoLe.cpp">
+      <Filter>HTTP\VideoActivity</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\VideoActivity\VideoActivityXunLei.cpp">
+      <Filter>HTTP\VideoActivity</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\VideoActivity\VideoActivityYouKu.cpp">
+      <Filter>HTTP\VideoActivity</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\WebSite\WebSite.cpp">
+      <Filter>HTTP\WebSite</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\WebSite\WebSite51la.cpp">
+      <Filter>HTTP\WebSite</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\WebSite\WebSite51yes.cpp">
+      <Filter>HTTP\WebSite</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\WebSite\WebSiteAdmin88.cpp">
+      <Filter>HTTP\WebSite</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\WebSite\WebSiteBaiDuZhanZhang.cpp">
+      <Filter>HTTP\WebSite</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\WebSite\WebSiteChinaz.cpp">
+      <Filter>HTTP\WebSite</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\WebSite\WebSiteGoStats.cpp">
+      <Filter>HTTP\WebSite</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\WebSite\WebSiteTencent.cpp">
+      <Filter>HTTP\WebSite</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\WebSite\WebSiteWapWat.cpp">
+      <Filter>HTTP\WebSite</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Marriage\Marriage.cpp">
+      <Filter>HTTP\Marriage</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Marriage\MarriageBaiHe.cpp">
+      <Filter>HTTP\Marriage</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Marriage\MarriageHongNiang.cpp">
+      <Filter>HTTP\Marriage</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Marriage\MarriageHongXiuQiu.cpp">
+      <Filter>HTTP\Marriage</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Marriage\MarriageHuaTian.cpp">
+      <Filter>HTTP\Marriage</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Marriage\MarriageIZhenXin.cpp">
+      <Filter>HTTP\Marriage</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Marriage\MarriageJiaoYou.cpp">
+      <Filter>HTTP\Marriage</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Marriage\MarriageJiaYuan.cpp">
+      <Filter>HTTP\Marriage</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Marriage\MarriageLoveInHere.cpp">
+      <Filter>HTTP\Marriage</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Marriage\MarriageShanHunWang.cpp">
+      <Filter>HTTP\Marriage</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Marriage\MarriageSuPeiWang.cpp">
+      <Filter>HTTP\Marriage</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Marriage\MarriageTaoNan.cpp">
+      <Filter>HTTP\Marriage</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Marriage\MarriageTongChengYueHui.cpp">
+      <Filter>HTTP\Marriage</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Marriage\MarriageWoZaiZhaoNi.cpp">
+      <Filter>HTTP\Marriage</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Marriage\MarriageYiYuanWang.cpp">
+      <Filter>HTTP\Marriage</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Marriage\MarriageYlike.cpp">
+      <Filter>HTTP\Marriage</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Marriage\MarriageYouYuanWang.cpp">
+      <Filter>HTTP\Marriage</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Marriage\MarriageYuanLai.cpp">
+      <Filter>HTTP\Marriage</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Marriage\MarriageZhenAi.cpp">
+      <Filter>HTTP\Marriage</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Marriage\MarriageZhenQingZaiXian.cpp">
+      <Filter>HTTP\Marriage</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Marriage\MarriageZhiJiWang.cpp">
+      <Filter>HTTP\Marriage</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\FileTransfer\FileTransfer.cpp">
+      <Filter>HTTP\FileTransfer</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\FileTransfer\FileTransferZapya.cpp">
+      <Filter>HTTP\FileTransfer</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Hotel\Hotel.cpp">
+      <Filter>HTTP\Hotel</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Hotel\HotelCtrip.cpp">
+      <Filter>HTTP\Hotel</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Hotel\HotelElong.cpp">
+      <Filter>HTTP\Hotel</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Hotel\HotelLvmama.cpp">
+      <Filter>HTTP\Hotel</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Hotel\HotelPodinns.cpp">
+      <Filter>HTTP\Hotel</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Hotel\HotelQuner.cpp">
+      <Filter>HTTP\Hotel</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Hotel\HotelQyer.cpp">
+      <Filter>HTTP\Hotel</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Hotel\HotelRujia.cpp">
+      <Filter>HTTP\Hotel</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Hotel\HotelSuperEight.cpp">
+      <Filter>HTTP\Hotel</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Hotel\HotelTuniu.cpp">
+      <Filter>HTTP\Hotel</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Hotel\HotelYododo.cpp">
+      <Filter>HTTP\Hotel</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Hotel\HotelZhuna.cpp">
+      <Filter>HTTP\Hotel</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Software\Software.cpp">
+      <Filter>HTTP\Software</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Software\SoftwareBaiDu.cpp">
+      <Filter>HTTP\Software</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Software\SoftwareChinaz.cpp">
+      <Filter>HTTP\Software</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Software\SoftwareCr173.cpp">
+      <Filter>HTTP\Software</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Software\SoftwareCrsky.cpp">
+      <Filter>HTTP\Software</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Software\SoftwareDowng.cpp">
+      <Filter>HTTP\Software</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Software\SoftwareDownkr.cpp">
+      <Filter>HTTP\Software</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Software\SoftwareDownxia.cpp">
+      <Filter>HTTP\Software</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Software\SoftwareDuoTe.cpp">
+      <Filter>HTTP\Software</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Software\SoftwareGreentea.cpp">
+      <Filter>HTTP\Software</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Software\SoftwareGreenXF.cpp">
+      <Filter>HTTP\Software</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Software\SoftwareGreenXiaZai.cpp">
+      <Filter>HTTP\Software</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Software\SoftwareHao123.cpp">
+      <Filter>HTTP\Software</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Software\SoftwareHuacolor.cpp">
+      <Filter>HTTP\Software</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Software\SoftwareOnlineDown.cpp">
+      <Filter>HTTP\Software</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Software\SoftwareOrsoon.cpp">
+      <Filter>HTTP\Software</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Software\SoftwarePc141.cpp">
+      <Filter>HTTP\Software</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Software\SoftwarePc6.cpp">
+      <Filter>HTTP\Software</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Software\SoftwarePconline.cpp">
+      <Filter>HTTP\Software</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Software\SoftwareQQ.cpp">
+      <Filter>HTTP\Software</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Software\SoftwareSina.cpp">
+      <Filter>HTTP\Software</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Software\SoftwareSkycn.cpp">
+      <Filter>HTTP\Software</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Software\SoftwareSoGou.cpp">
+      <Filter>HTTP\Software</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Software\SoftwareTongYi.cpp">
+      <Filter>HTTP\Software</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Software\SoftwareWmzhe.cpp">
+      <Filter>HTTP\Software</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Software\SoftwareXdowns.cpp">
+      <Filter>HTTP\Software</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Software\SoftwareXiaZaiBa.cpp">
+      <Filter>HTTP\Software</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Software\SoftwareZol.cpp">
+      <Filter>HTTP\Software</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Supply\Supply.cpp">
+      <Filter>HTTP\Supply</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Supply\Supply58.cpp">
+      <Filter>HTTP\Supply</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Supply\SupplyGanji.cpp">
+      <Filter>HTTP\Supply</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Supply\SupplyYingCai.cpp">
+      <Filter>HTTP\Supply</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\InterfaceLogin\InterfaceLogin.cpp">
+      <Filter>HTTP\InterfaceLogin</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\InterfaceLogin\InterfaceLoginQQ.cpp">
+      <Filter>HTTP\InterfaceLogin</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\InterfaceLogin\InterfaceLoginRenRen.cpp">
+      <Filter>HTTP\InterfaceLogin</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\AQWS360.CPP">
+      <Filter>HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\BoundaryParser.cpp">
+      <Filter>HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\DealHttpGet.cpp">
+      <Filter>HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\DealHttpPost.cpp">
+      <Filter>HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\FreeGate757.cpp">
+      <Filter>HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\http.cpp">
+      <Filter>HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\HttpPro.cpp">
+      <Filter>HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\HttpProObserver.cpp">
+      <Filter>HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\HttpProxy.cpp">
+      <Filter>HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\Https.cpp">
+      <Filter>HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\HttpSession.cpp">
+      <Filter>HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\HttpSession2.cpp">
+      <Filter>HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\NetHotTable.cpp">
+      <Filter>HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PCUniqueCode.cpp">
+      <Filter>HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneAD.cpp">
+      <Filter>HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneMap.cpp">
+      <Filter>HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneMediaApp.cpp">
+      <Filter>HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PhoneNumCheat.cpp">
+      <Filter>HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PostSplit.cpp">
+      <Filter>HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\ProtocolConfig.cpp">
+      <Filter>HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PublicFun.cpp">
+      <Filter>HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\PublicFun2.cpp">
+      <Filter>HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\QQGet.cpp">
+      <Filter>HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\QQhttpSession.cpp">
+      <Filter>HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\StringManipulation.cpp">
+      <Filter>HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\TeSpread.cpp">
+      <Filter>HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\VoipMessage.cpp">
+      <Filter>HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\VoipUrl.cpp">
+      <Filter>HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\YiXinHttpSession.cpp">
+      <Filter>HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ReadPara.cpp">
+      <Filter>SyncPara</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\SyncTable.cpp">
+      <Filter>SyncPara</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ZwString.cpp">
+      <Filter>SyncPara</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\compress\Lzw.cpp">
+      <Filter>compress</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HTTP\mobilemomo.cpp">
+      <Filter>手机软件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\json\json_reader.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\json\json_value.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\json\json_writer.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Src\DCE.RC">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\Getmoniterweb.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\rbstringarray.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Compress.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DCE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\gstdh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\IdcIpLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\IDCServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\IpQueryLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\LimitPara.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\LoadModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\NatAuth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\PhoneNumberLocation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ProMission.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\PubClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\PubFunc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\PubType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\PubVar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ReadDDeFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\RealipMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ServerState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\StatAgent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\StatKey.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files\Microsoft Visual Studio\VC98\Include\TIME.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\VOIP_CALL.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\WebHisTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Algorithm.h">
+      <Filter>基本数据结构</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\BaseStruct.h">
+      <Filter>基本数据结构</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\QQ_Crypt.h">
+      <Filter>基本数据结构</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\rbtempl.h">
+      <Filter>基本数据结构</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\AAA.h">
+      <Filter>认证</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\BTreeSeach.h">
+      <Filter>基类</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\dbgswitch.h">
+      <Filter>基类</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DceMission.h">
+      <Filter>基类</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\SocketSession.h">
+      <Filter>基类</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\zwsqldb.h">
+      <Filter>基类</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Unip.h">
+      <Filter>UNIP</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\UnipSession.h">
+      <Filter>UNIP</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\SMTP\smtp.h">
+      <Filter>SMTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\SMTP\SmtpSession.h">
+      <Filter>SMTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\POP3\ImapSession.h">
+      <Filter>POP3</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\POP3\pop3.h">
+      <Filter>POP3</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\POP3\Pop3Session.h">
+      <Filter>POP3</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\FTP\eMule.h">
+      <Filter>FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\FTP\ftp.h">
+      <Filter>FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\FTP\FtpSession.h">
+      <Filter>FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\FTP\IrcSession.h">
+      <Filter>FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\pcanywhere.h">
+      <Filter>FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\FTP\Radmin.h">
+      <Filter>FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\ssh.h">
+      <Filter>FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\FTP\TelnetSession.h">
+      <Filter>FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\FTP\terminal.h">
+      <Filter>FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\FTP\Vnc.h">
+      <Filter>FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Media\BDCVideo.h">
+      <Filter>音视频</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Media\blueskyvideo.h">
+      <Filter>音视频</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Media\DoShowVideo.h">
+      <Filter>音视频</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Media\FlashVideo.h">
+      <Filter>音视频</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Media\FreeGateFinder.h">
+      <Filter>音视频</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Media\ISAudioSession.h">
+      <Filter>音视频</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Media\KKSession.h">
+      <Filter>音视频</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Media\Media.h">
+      <Filter>音视频</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Media\MediaSession.h">
+      <Filter>音视频</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Media\MsnVideo.h">
+      <Filter>音视频</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Media\PopoVideo.H">
+      <Filter>音视频</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Media\QQVideo.h">
+      <Filter>音视频</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Media\SQQvideo.h">
+      <Filter>音视频</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Media\StreamRTSP.h">
+      <Filter>音视频</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Media\UcVideo.h">
+      <Filter>音视频</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Media\UUTong.h">
+      <Filter>音视频</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Media\vgate.h">
+      <Filter>音视频</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Media\voip.h">
+      <Filter>音视频</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Media\Voip97CallSession.h">
+      <Filter>音视频</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Media\VoipALICallSession.h">
+      <Filter>音视频</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Media\VoipCloudCallSession.h">
+      <Filter>音视频</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Media\VoipDYTSession.h">
+      <Filter>音视频</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Media\VoipETSession.h">
+      <Filter>音视频</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Media\VoipHHCallSession.h">
+      <Filter>音视频</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Media\VoipHHTSession.h">
+      <Filter>音视频</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Media\VoipKBCALLSession.h">
+      <Filter>音视频</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Media\VoipKCSession.h">
+      <Filter>音视频</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Media\VoipKuBaoSession.h">
+      <Filter>音视频</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Media\VoipMedia.h">
+      <Filter>音视频</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Media\VoipMobileAILIAOSession.h">
+      <Filter>音视频</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Media\VoipMobileG723Session.h">
+      <Filter>音视频</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Media\VoipMobileHHCALLSession.h">
+      <Filter>音视频</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Media\VoipMobileKBCALLSession.h">
+      <Filter>音视频</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Media\VoipMobileTTSession.h">
+      <Filter>音视频</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Media\VoipQQ.h">
+      <Filter>音视频</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Media\VoipTalkBox.h">
+      <Filter>音视频</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Media\VoipUXINSession.h">
+      <Filter>音视频</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Media\VoipYMCallSession.h">
+      <Filter>音视频</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Media\VpVideo.H">
+      <Filter>音视频</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Media\YahooVideo.H">
+      <Filter>音视频</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Media\YYAudio.h">
+      <Filter>音视频</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Media\ZelloAudio.h">
+      <Filter>音视频</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\IMSG\des.h">
+      <Filter>即时消息\淘宝</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\IMSG\TaoBao1.h">
+      <Filter>即时消息\淘宝</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\IMSG\TaoBaoDecode.h">
+      <Filter>即时消息\淘宝</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\IMSG\Uc.h">
+      <Filter>即时消息\新浪UC</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\IMSG\uccrypt.h">
+      <Filter>即时消息\新浪UC</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\IMSG\mysql.h">
+      <Filter>即时消息\SQL</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\IMSG\SqlTDS.h">
+      <Filter>即时消息\SQL</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\IMSG\daying.h">
+      <Filter>即时消息\money</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\IMSG\Dzh.h">
+      <Filter>即时消息\money</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\IMSG\mobileqq.h">
+      <Filter>即时消息\手机QQ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\IMSG\public.h">
+      <Filter>即时消息\手机QQ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\IMSG\Bf.h">
+      <Filter>即时消息</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\IMSG\DOOM.H">
+      <Filter>即时消息</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\IMSG\EPH.h">
+      <Filter>即时消息</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\IMSG\Fetion.h">
+      <Filter>即时消息</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\IMSG\GTalk.h">
+      <Filter>即时消息</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\IMSG\HF.h">
+      <Filter>即时消息</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\IMSG\IcqAol.h">
+      <Filter>即时消息</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\IMSG\imsg.h">
+      <Filter>即时消息</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\IMSG\MaiQuan.h">
+      <Filter>即时消息</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\IMSG\Markup.h">
+      <Filter>即时消息</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\IMSG\Mir.h">
+      <Filter>即时消息</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\IMSG\MSN.h">
+      <Filter>即时消息</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\IMSG\OICQ.h">
+      <Filter>即时消息</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\IMSG\ooVoo.h">
+      <Filter>即时消息</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\IMSG\OurGame.h">
+      <Filter>即时消息</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\IMSG\PerfectGame.h">
+      <Filter>即时消息</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\IMSG\QQFunc.h">
+      <Filter>即时消息</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\IMSG\QQGame.h">
+      <Filter>即时消息</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\IMSG\QQHeartbeat.h">
+      <Filter>即时消息</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\IMSG\QQTranFile.h">
+      <Filter>即时消息</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\IMSG\Soqq.h">
+      <Filter>即时消息</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\IMSG\VoipImsg.h">
+      <Filter>即时消息</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\IMSG\VP.h">
+      <Filter>即时消息</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\IMSG\WeMeet.h">
+      <Filter>即时消息</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\IMSG\wow.h">
+      <Filter>即时消息</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\IMSG\wuyiguagua.h">
+      <Filter>即时消息</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\IMSG\Xintiandi.h">
+      <Filter>即时消息</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\IMSG\YMsg.h">
+      <Filter>即时消息</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\FreeGateDec.h">
+      <Filter>HTTP\Nog</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\NogSession.h">
+      <Filter>HTTP\Nog</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\thread.h">
+      <Filter>HTTP\thunder</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\EMail\EMail.h">
+      <Filter>HTTP\EMail</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\EMail\EMail126.h">
+      <Filter>HTTP\EMail</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\EMail\EMail139.h">
+      <Filter>HTTP\EMail</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\EMail\EMail163.h">
+      <Filter>HTTP\EMail</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\EMail\EMail188.h">
+      <Filter>HTTP\EMail</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\EMail\EMail189.h">
+      <Filter>HTTP\EMail</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\EMail\EMail21CN.h">
+      <Filter>HTTP\EMail</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\EMail\EMailQQ.h">
+      <Filter>HTTP\EMail</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\EMail\EMailSina.h">
+      <Filter>HTTP\EMail</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\EMail\EMailSohu.h">
+      <Filter>HTTP\EMail</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\EMail\EMailTom.h">
+      <Filter>HTTP\EMail</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\EMail\EMailwo.h">
+      <Filter>HTTP\EMail</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\EMail\EMailYeah.h">
+      <Filter>HTTP\EMail</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Shopping\Shopping.h">
+      <Filter>HTTP\Shopping</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Shopping\ShoppingAiQiYiShangCheng.h">
+      <Filter>HTTP\Shopping</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Shopping\ShoppingBiShengKe.h">
+      <Filter>HTTP\Shopping</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Shopping\ShoppingDangDang.h">
+      <Filter>HTTP\Shopping</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Shopping\ShoppingFanKe.h">
+      <Filter>HTTP\Shopping</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Shopping\ShoppingGuoMei.h">
+      <Filter>HTTP\Shopping</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Shopping\ShoppingHaiLanZhiJia.h">
+      <Filter>HTTP\Shopping</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Shopping\ShoppingHanDuYiShe.h">
+      <Filter>HTTP\Shopping</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Shopping\ShoppingHaoLeMai.h">
+      <Filter>HTTP\Shopping</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Shopping\ShoppingJingDong.h">
+      <Filter>HTTP\Shopping</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Shopping\ShoppingJuMeiYouPin.h">
+      <Filter>HTTP\Shopping</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Shopping\ShoppingKaoLaHaiGou.h">
+      <Filter>HTTP\Shopping</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Shopping\ShoppingKFC.h">
+      <Filter>HTTP\Shopping</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Shopping\ShoppingKuaiLeGou.h">
+      <Filter>HTTP\Shopping</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Shopping\ShoppingLaShouWang.h">
+      <Filter>HTTP\Shopping</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Shopping\ShoppingLeFeng.h">
+      <Filter>HTTP\Shopping</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Shopping\ShoppingLeTao.h">
+      <Filter>HTTP\Shopping</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Shopping\ShoppingMaiHaoHao.h">
+      <Filter>HTTP\Shopping</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Shopping\ShoppingMaiLeGou.h">
+      <Filter>HTTP\Shopping</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Shopping\ShoppingMeiLiShuo.h">
+      <Filter>HTTP\Shopping</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Shopping\ShoppingMingXieKu.h">
+      <Filter>HTTP\Shopping</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Shopping\ShoppingMiYa.h">
+      <Filter>HTTP\Shopping</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Shopping\ShoppingMiZhe.h">
+      <Filter>HTTP\Shopping</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Shopping\ShoppingMoGuJie.h">
+      <Filter>HTTP\Shopping</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Shopping\ShoppingMoonBsSa.h">
+      <Filter>HTTP\Shopping</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Shopping\ShoppingNuoMi.h">
+      <Filter>HTTP\Shopping</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Shopping\ShoppingPaiPai.h">
+      <Filter>HTTP\Shopping</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Shopping\ShoppingSuNingYiGou.h">
+      <Filter>HTTP\Shopping</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Shopping\ShoppingTaoBao.h">
+      <Filter>HTTP\Shopping</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Shopping\ShoppingTMAll.h">
+      <Filter>HTTP\Shopping</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Shopping\ShoppingTuan800.h">
+      <Filter>HTTP\Shopping</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Shopping\ShoppingWeiPinHui.h">
+      <Filter>HTTP\Shopping</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Shopping\ShoppingWoWoTuanGou.h">
+      <Filter>HTTP\Shopping</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Shopping\ShoppingYiHaoDian.h">
+      <Filter>HTTP\Shopping</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Shopping\ShoppingYinYueShangCheng.h">
+      <Filter>HTTP\Shopping</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Shopping\ShoppingYoHoBuy.h">
+      <Filter>HTTP\Shopping</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Shopping\ShoppingYouGou.h">
+      <Filter>HTTP\Shopping</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Shopping\ShoppingZhe800.h">
+      <Filter>HTTP\Shopping</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Shopping\ShoppingZhenPin.h">
+      <Filter>HTTP\Shopping</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Contacts\Contacts.h">
+      <Filter>HTTP\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Contacts\Contacts1616.h">
+      <Filter>HTTP\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Contacts\Contacts4GVOIP.h">
+      <Filter>HTTP\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Contacts\Contacts91ZhuShou.h">
+      <Filter>HTTP\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Contacts\ContactsBaiSiBuDeJie.h">
+      <Filter>HTTP\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Contacts\ContactsCaiYun.h">
+      <Filter>HTTP\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Contacts\ContactsDouGuo.h">
+      <Filter>HTTP\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Contacts\ContactsFeiXin.h">
+      <Filter>HTTP\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Contacts\ContactsFengYunZhiBo.h">
+      <Filter>HTTP\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Contacts\ContactsJinShanKuaiPan.h">
+      <Filter>HTTP\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Contacts\ContactsSinaWeibo.h">
+      <Filter>HTTP\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Contacts\ContactsXiMaLaYa.h">
+      <Filter>HTTP\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Contacts\ContactsYMall.h">
+      <Filter>HTTP\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Contacts\ContactsYouXin.h">
+      <Filter>HTTP\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Contacts\ContactsYuJian.h">
+      <Filter>HTTP\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Contacts\ContactsYYBackup.h">
+      <Filter>HTTP\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Reading\Reading.h">
+      <Filter>HTTP\Reading</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Reading\ReadingBaiDuXinWen.h">
+      <Filter>HTTP\Reading</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Reading\ReadingFengHuangXinWen.h">
+      <Filter>HTTP\Reading</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Reading\ReadingJinRiTouTiao.h">
+      <Filter>HTTP\Reading</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Reading\ReadingNeihanDuanZi.h">
+      <Filter>HTTP\Reading</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Reading\ReadingSouHuXinWen.h">
+      <Filter>HTTP\Reading</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Reading\ReadingTengXunXinWen.h">
+      <Filter>HTTP\Reading</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Reading\ReadingTianTianKuaiBao.h">
+      <Filter>HTTP\Reading</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Reading\ReadingWangYiXinWen.h">
+      <Filter>HTTP\Reading</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Reading\ReadingXinLangXinWen.h">
+      <Filter>HTTP\Reading</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Reading\ReadingZaker.h">
+      <Filter>HTTP\Reading</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\MediaPlatform\MediaPlatform.h">
+      <Filter>HTTP\MediaPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Taxi\Taxi.h">
+      <Filter>HTTP\Taxi</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Taxi\TaxiDiDi.h">
+      <Filter>HTTP\Taxi</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Taxi\TaxiDiDiZhuanChe.h">
+      <Filter>HTTP\Taxi</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Taxi\TaxiKuaiDi.h">
+      <Filter>HTTP\Taxi</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Taxi\TaxiMobike.h">
+      <Filter>HTTP\Taxi</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Taxi\TaxiYiDaoYongChe.h">
+      <Filter>HTTP\Taxi</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Taxi\TaxiYiHaoZhuanChe.h">
+      <Filter>HTTP\Taxi</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Forum\Forum.h">
+      <Filter>HTTP\Forum</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Forum\ForumBaiduTieBa.h">
+      <Filter>HTTP\Forum</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Forum\ForumCSDN.h">
+      <Filter>HTTP\Forum</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Forum\ForumDiscuz.h">
+      <Filter>HTTP\Forum</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Forum\ForumMaoPu.h">
+      <Filter>HTTP\Forum</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Forum\ForumQQZone.h">
+      <Filter>HTTP\Forum</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Forum\ForumTianYa.h">
+      <Filter>HTTP\Forum</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Forum\ForumXiCiHuTong.h">
+      <Filter>HTTP\Forum</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Blog\Blog.h">
+      <Filter>HTTP\Blog</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Blog\BlogBokeeBlog.h">
+      <Filter>HTTP\Blog</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Blog\BlogFengHuangBlog.h">
+      <Filter>HTTP\Blog</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Blog\BlogHeXun.h">
+      <Filter>HTTP\Blog</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Blog\BlogPaPa.h">
+      <Filter>HTTP\Blog</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Blog\BlogSohuBlog.h">
+      <Filter>HTTP\Blog</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Blog\BlogTengXunWeiBo.h">
+      <Filter>HTTP\Blog</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Blog\BlogWangYiBlog.h">
+      <Filter>HTTP\Blog</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Blog\BlogWangYiLofter.h">
+      <Filter>HTTP\Blog</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Blog\BlogXinHuaBlog.h">
+      <Filter>HTTP\Blog</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Blog\BlogXinLangBlog.h">
+      <Filter>HTTP\Blog</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Blog\BlogXinLangWeiBo.h">
+      <Filter>HTTP\Blog</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\Location.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\Location365RiLi.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\Location58TongCheng.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\Location8684Bus.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationAiBa.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationAiChengShi.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationAiLiao.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationAnJuKe.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationBaiDuTuanGou.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationBaiDuWangYeDingWei.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationBaiHe.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationBaiXingWang.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationBlued.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationChangWuXian.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationCheLunChaWeiZhang.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationChinaDianXin.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationCtrip.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationDaMai.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationDaZhongDianPing.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationDingDingYouHui.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationDouBan.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationGanJi.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationGoZhuoMian.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationHeMap.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationHuangLiTianQi.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationJiaoTongWeiZhangChaXun.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationJingDianTeJia.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationJiShiTianQi.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationJuHuaSuan.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationKaiXinWang.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationKuaiLeBeiYun.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationKuGou.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationLaMaBang.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationLeDongLi.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationLingShengDuoDuo.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationLofter.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationLvMaMaLvYou.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationMaMaBang.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationMaMaQuan.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationMeiTuan.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationMianBaoLvXing.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationMiLiao.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationMoJiTianQi.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationMoMo.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationMoXiuZhuoMian.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationNuoMi.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationOTHER.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationPeiNiKanDianYing.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationQianChengWuYou.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationQingTingFM.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationQiuShiBaiKe.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationQuNaLvXing.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationRenMaiTong.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationRenRenWang.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationShengHuoRiLi.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationShiJiJiaYuan.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationSinaWeiBo.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationSouFangWang.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationSouHuGouFangZhuShou.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationSuieXingWlan.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationSuNingYiGou.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationTaoBao.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationTianQiXiangJi.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationTianYaSheQu.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationTongChengLvYou.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationTuan800.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationTuanGou.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationWangXin.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationWeiCheWeiZhang.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationWeiDaiJia.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationWifiBanLv.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationWifiWanNengYaoChi.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationWoChaCha.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationWuYa.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationXieShiPai.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationXiMaLaYa.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationYeDuShi.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationYiHaoDian.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationYouJia.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationYuanLaiHunLian.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationYueNi.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationZaker.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationZhangShangYaoDian.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationZhiLianZhaoPin.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Location\LocationZhouMoQuNa.h">
+      <Filter>HTTP\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Installed\Installed.h">
+      <Filter>HTTP\Installed</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Installed\Installed360AnQuanWeiShi.h">
+      <Filter>HTTP\Installed</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Installed\Installed360ShouJiAnQuanWeiShi.h">
+      <Filter>HTTP\Installed</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Installed\Installed91ZhuShou.h">
+      <Filter>HTTP\Installed</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Installed\InstalledAFanTi.h">
+      <Filter>HTTP\Installed</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Installed\InstalledALiYun.h">
+      <Filter>HTTP\Installed</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Installed\InstalledAnZhuoShiChang.h">
+      <Filter>HTTP\Installed</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Installed\InstalledBaiDuShouJiZhuShou.h">
+      <Filter>HTTP\Installed</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Installed\InstalledDouGuoMeiShi.h">
+      <Filter>HTTP\Installed</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Installed\InstalledHiCloud.h">
+      <Filter>HTTP\Installed</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Installed\InstalledKuaiYong.h">
+      <Filter>HTTP\Installed</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Installed\InstalledLianXiangShangDian.h">
+      <Filter>HTTP\Installed</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Installed\InstalledMeiZuYingYongShangDian.h">
+      <Filter>HTTP\Installed</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Installed\InstalledMmShangDian.h">
+      <Filter>HTTP\Installed</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Installed\InstalledOppoShangDian.h">
+      <Filter>HTTP\Installed</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Installed\InstalledPPzhushou.h">
+      <Filter>HTTP\Installed</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Installed\InstalledShouJiZhuShou360.h">
+      <Filter>HTTP\Installed</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Installed\InstalledSouGouZhuShou.h">
+      <Filter>HTTP\Installed</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Installed\InstalledVivoShangDian.h">
+      <Filter>HTTP\Installed</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Installed\InstalledWanDouJia.h">
+      <Filter>HTTP\Installed</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Installed\InstalledXiaoMiShangDian.h">
+      <Filter>HTTP\Installed</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Installed\InstalledYingYongBao.h">
+      <Filter>HTTP\Installed</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Installed\InstalledZhongXingShangDian.h">
+      <Filter>HTTP\Installed</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Running\Running.h">
+      <Filter>HTTP\Chating\Running</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Running\RunningAvast.h">
+      <Filter>HTTP\Chating\Running</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Running\RunningComodo.h">
+      <Filter>HTTP\Chating\Running</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Running\RunningFDM.h">
+      <Filter>HTTP\Chating\Running</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Running\RunningHeyTalk.h">
+      <Filter>HTTP\Chating\Running</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Running\RunningLine.h">
+      <Filter>HTTP\Chating\Running</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Running\RunningQianXun.h">
+      <Filter>HTTP\Chating\Running</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Running\RunningSkout.h">
+      <Filter>HTTP\Chating\Running</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Running\RunningTango.h">
+      <Filter>HTTP\Chating\Running</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Running\RunningViber.h">
+      <Filter>HTTP\Chating\Running</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Running\RunningXiaoHongSan.h">
+      <Filter>HTTP\Chating\Running</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Chating\Chating.h">
+      <Filter>HTTP\Chating</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Chating\ChatingAliIM.h">
+      <Filter>HTTP\Chating</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Chating\ChatingBiLin.h">
+      <Filter>HTTP\Chating</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Chating\ChatingFetion.h">
+      <Filter>HTTP\Chating</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Chating\ChatingLive800.h">
+      <Filter>HTTP\Chating</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Chating\ChatingMiLiao.h">
+      <Filter>HTTP\Chating</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Chating\ChatingProvideSupport.h">
+      <Filter>HTTP\Chating</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Chating\ChatingQQ.h">
+      <Filter>HTTP\Chating</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Chating\ChatingTalkBox.h">
+      <Filter>HTTP\Chating</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Chating\ChatingVoxer.h">
+      <Filter>HTTP\Chating</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Chating\ChatingWeiXin.h">
+      <Filter>HTTP\Chating</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Chating\ChatingYiXin.h">
+      <Filter>HTTP\Chating</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Chating\Telegram.h">
+      <Filter>HTTP\Chating</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Chating\Zello.h">
+      <Filter>HTTP\Chating</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Account\Account.h">
+      <Filter>HTTP\Account</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Account\AccountBaiDu.h">
+      <Filter>HTTP\Account</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneDevice\PhoneDevice.h">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneDevice\PhoneDevice2345ZhuShou.h">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneDevice\PhoneDevice360zhushou.h">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneDevice\PhoneDevice58TongCheng.h">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneDevice\PhoneDeviceAiQiYi.h">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneDevice\PhoneDeviceAnZhuoShiChang.h">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneDevice\PhoneDeviceBaiDuShouJiWeiShi.h">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneDevice\PhoneDeviceBaiDuTieBa.h">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneDevice\PhoneDeviceBaoFengYingYin.h">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneDevice\PhoneDeviceBiLin.h">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneDevice\PhoneDeviceChengPinKuaiPai.h">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneDevice\PhoneDeviceDaZhongDianPing.h">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneDevice\PhoneDeviceDouGuoMeiShi.h">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneDevice\PhoneDeviceFengHuangXinWen.h">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneDevice\PhoneDeviceHaoMaBaiShiTong.h">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneDevice\PhoneDeviceHiCloud.h">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneDevice\PhoneDeviceJingDong.h">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneDevice\PhoneDeviceJinShanDianYiSheng.h">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneDevice\PhoneDeviceKuaiShou.h">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneDevice\PhoneDeviceLianJia.h">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneDevice\PhoneDeviceLofter.h">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneDevice\PhoneDeviceMeiTuXiuXiu.h">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneDevice\PhoneDeviceMiaoPai.h">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneDevice\PhoneDeviceMiGu.h">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneDevice\PhoneDeviceMobike.h">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneDevice\PhoneDeviceMoJiTianQi.h">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneDevice\PhoneDeviceOTHER.h">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneDevice\PhoneDevicePPZhuShou.h">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneDevice\PhoneDeviceQuanMinKGe.h">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneDevice\PhoneDeviceSuiEXingWiFi.h">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneDevice\PhoneDeviceTaoBao.h">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneDevice\PhoneDeviceTengXunShiPin.h">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneDevice\PhoneDeviceTongHuaShun.h">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneDevice\PhoneDeviceTouTiao.h">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneDevice\PhoneDeviceWanDouJia.h">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneDevice\PhoneDeviceWangYiXinWen.h">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneDevice\PhoneDeviceWIFIWangNengYaoShi.h">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneDevice\PhoneDeviceXinLangWeiBo.h">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneDevice\PhoneDeviceYingYongBao.h">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneDevice\PhoneDeviceYiRenDai.h">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneDevice\PhoneDeviceYouDaoCiDian.h">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneDevice\PhoneDeviceYouKu.h">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneDevice\PhoneDeviceYueDongQuan.h">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneDevice\PhoneDeviceZhe800.h">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneDevice\PhoneDeviceZhiFuBaoQianBao.h">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneDevice\PhoneDeviceZhuanZhuan.h">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneDevice\PhoneDeviceZte.h">
+      <Filter>HTTP\PhoneDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\ComputerDevice\ComputerDevice.h">
+      <Filter>HTTP\ComputerDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\ComputerDevice\ComputerDevice360AnQuanWeiShi.h">
+      <Filter>HTTP\ComputerDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\ComputerDevice\ComputerDeviceUserAgent.h">
+      <Filter>HTTP\ComputerDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\RealName\RealName.h">
+      <Filter>HTTP\RealName</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\RealName\RealNameDongHang.h">
+      <Filter>HTTP\RealName</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\RealName\RealNameQiTian.h">
+      <Filter>HTTP\RealName</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\RealName\RealNameTrafficTongChengLvYou.h">
+      <Filter>HTTP\RealName</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\RealName\RealNameTrafficXieChengLvXing.h">
+      <Filter>HTTP\RealName</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\RealName\RealNameTrafficYiLong.h">
+      <Filter>HTTP\RealName</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\RealName\RealNameWeChat.h">
+      <Filter>HTTP\RealName</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\RealName\RealNameZhiFuBao.h">
+      <Filter>HTTP\RealName</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneInfo\PhoneInfo.h">
+      <Filter>HTTP\PhoneInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneInfo\PhoneInfoBaiDuShouJiWeiShi.h">
+      <Filter>HTTP\PhoneInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneInfo\PhoneInfoPPTV.h">
+      <Filter>HTTP\PhoneInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneInfo\PhoneInfoTaoBao.h">
+      <Filter>HTTP\PhoneInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneInfo\PhoneInfoTengXunNews.h">
+      <Filter>HTTP\PhoneInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneInfo\PhoneInfoTengXunShiPin.h">
+      <Filter>HTTP\PhoneInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneInfo\PhoneInfoTianMiao.h">
+      <Filter>HTTP\PhoneInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneInfo\PhoneInfoYouKu.h">
+      <Filter>HTTP\PhoneInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneInfo\PhoneInfoZhiFuBaoQianBao.h">
+      <Filter>HTTP\PhoneInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneInfo\PhoneInfoZhuShou91.h">
+      <Filter>HTTP\PhoneInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\Attached\DeviceInfo.h">
+      <Filter>HTTP\PRO\Attached</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\AiQiYi.h">
+      <Filter>HTTP\PRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\AnQuanWeiShi360.h">
+      <Filter>HTTP\PRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\BaiDuTieBa.h">
+      <Filter>HTTP\PRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\Blued.h">
+      <Filter>HTTP\PRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\DaZhongDianPing.h">
+      <Filter>HTTP\PRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\DianXin.h">
+      <Filter>HTTP\PRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\DiDiDaChe.h">
+      <Filter>HTTP\PRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\Discuz.h">
+      <Filter>HTTP\PRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\FeiXin.h">
+      <Filter>HTTP\PRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\FengHuangXinWen.h">
+      <Filter>HTTP\PRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\GoZhuoMian.h">
+      <Filter>HTTP\PRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\JingDong.h">
+      <Filter>HTTP\PRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\JinShanDianChiYiSheng.h">
+      <Filter>HTTP\PRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\KuaiDiDaChe.h">
+      <Filter>HTTP\PRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\KuaiLeBeiYun.h">
+      <Filter>HTTP\PRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\KuaiYong.h">
+      <Filter>HTTP\PRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\MaoPu.h">
+      <Filter>HTTP\PRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\MBaiDuCom.h">
+      <Filter>HTTP\PRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\MeiTuXiuXiu.h">
+      <Filter>HTTP\PRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\MeiZuShangDian.h">
+      <Filter>HTTP\PRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\MiLiao.h">
+      <Filter>HTTP\PRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\MoJiTianQi.h">
+      <Filter>HTTP\PRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\MoXiuZhuoMian.h">
+      <Filter>HTTP\PRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\PaPa.h">
+      <Filter>HTTP\PRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\QianChengWuYou.h">
+      <Filter>HTTP\PRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\QQ.h">
+      <Filter>HTTP\PRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\ShouJiWeiShi360.h">
+      <Filter>HTTP\PRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\SouGouZhuShou.h">
+      <Filter>HTTP\PRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\SouHuXinWen.h">
+      <Filter>HTTP\PRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\TalkBox.h">
+      <Filter>HTTP\PRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\TaoBao.h">
+      <Filter>HTTP\PRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\TengXunShiPin.h">
+      <Filter>HTTP\PRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\TengXunWeiBo.h">
+      <Filter>HTTP\PRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\TengXunXinWen.h">
+      <Filter>HTTP\PRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\TianMao.h">
+      <Filter>HTTP\PRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\TianYa.h">
+      <Filter>HTTP\PRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\TongChengLvYou.h">
+      <Filter>HTTP\PRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\Voxer.h">
+      <Filter>HTTP\PRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\WanDouJia.h">
+      <Filter>HTTP\PRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\WangYiXinWen.h">
+      <Filter>HTTP\PRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\WeiXin.h">
+      <Filter>HTTP\PRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\XiaoMiShangDian.h">
+      <Filter>HTTP\PRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\XieChengLvXing.h">
+      <Filter>HTTP\PRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\XinLangWeiBo.h">
+      <Filter>HTTP\PRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\XinLangXinWen.h">
+      <Filter>HTTP\PRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\YiXin.h">
+      <Filter>HTTP\PRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\YouKu.h">
+      <Filter>HTTP\PRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\ZhiFuBaoQianBao.h">
+      <Filter>HTTP\PRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\ZhiLianZhaoPin.h">
+      <Filter>HTTP\PRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PRO\ZhuShou91.h">
+      <Filter>HTTP\PRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\QQPIM\defs.h">
+      <Filter>HTTP\QQPIM</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\QQPIM\QQPhoneBook.h">
+      <Filter>HTTP\QQPIM</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\QQPIM\QQSyncAsist.h">
+      <Filter>HTTP\QQPIM</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\QQPIM\QQSyncAsistPub.h">
+      <Filter>HTTP\QQPIM</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\QQPIM\WechatContact.h">
+      <Filter>HTTP\QQPIM</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Cloud\YunPan.h">
+      <Filter>HTTP\Cloud</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Cloud\YunPan360.h">
+      <Filter>HTTP\Cloud</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Cloud\YunPanBaidu.h">
+      <Filter>HTTP\Cloud</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Cloud\YunPanHuaWei.h">
+      <Filter>HTTP\Cloud</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Cloud\YunPanTengXun.h">
+      <Filter>HTTP\Cloud</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Cloud\YunPanTianYi.h">
+      <Filter>HTTP\Cloud</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Cloud\YunPanWangYi.h">
+      <Filter>HTTP\Cloud</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Cloud\YunPanXinLang.h">
+      <Filter>HTTP\Cloud</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\traffic\Lvmamalvyou.h">
+      <Filter>HTTP\Traffic</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\traffic\MangGuo.h">
+      <Filter>HTTP\Traffic</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\traffic\PiaoWu114.h">
+      <Filter>HTTP\Traffic</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\traffic\QiChePiao.h">
+      <Filter>HTTP\Traffic</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\traffic\Qunaer.h">
+      <Filter>HTTP\Traffic</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\traffic\Tongcheng.h">
+      <Filter>HTTP\Traffic</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\traffic\Traffic.h">
+      <Filter>HTTP\Traffic</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\traffic\Tuniu.h">
+      <Filter>HTTP\Traffic</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\traffic\Xiecheng.h">
+      <Filter>HTTP\Traffic</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\traffic\Yilong.h">
+      <Filter>HTTP\Traffic</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\KuaiDi\EMS.h">
+      <Filter>HTTP\KuaiDi</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\KuaiDi\KuaiDi.h">
+      <Filter>HTTP\KuaiDi</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\KuaiDi\ShenTong.h">
+      <Filter>HTTP\KuaiDi</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\KuaiDi\ShunFeng.h">
+      <Filter>HTTP\KuaiDi</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\KuaiDi\TianTiankuaidi.h">
+      <Filter>HTTP\KuaiDi</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\KuaiDi\YuanTong.h">
+      <Filter>HTTP\KuaiDi</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\KuaiDi\YunDa.h">
+      <Filter>HTTP\KuaiDi</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\KuaiDi\ZhaiJiSong.h">
+      <Filter>HTTP\KuaiDi</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\KuaiDi\ZhongTong.h">
+      <Filter>HTTP\KuaiDi</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Airplane\ChinaEastern.h">
+      <Filter>HTTP\Airplane</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Airplane\ChinaHainan.h">
+      <Filter>HTTP\Airplane</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Airplane\ChinaSouthern.h">
+      <Filter>HTTP\Airplane</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Airplane\Plane.h">
+      <Filter>HTTP\Airplane</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Airplane\PlaneAirChina.h">
+      <Filter>HTTP\Airplane</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Airplane\PlaneCaptialAirlines.h">
+      <Filter>HTTP\Airplane</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Airplane\PlaneChunQiuAirlines.h">
+      <Filter>HTTP\Airplane</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Airplane\PlaneJuneYaoAir.h">
+      <Filter>HTTP\Airplane</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Airplane\PlaneLianHeAirlines.h">
+      <Filter>HTTP\Airplane</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Airplane\PlaneQingDaoAirlines.h">
+      <Filter>HTTP\Airplane</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Airplane\PlaneShanDongAirlines.h">
+      <Filter>HTTP\Airplane</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Airplane\PlaneShenZhenAirlines.h">
+      <Filter>HTTP\Airplane</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Airplane\PlaneSiChuanAirlines.h">
+      <Filter>HTTP\Airplane</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Airplane\PlaneXiaMenAirlines.h">
+      <Filter>HTTP\Airplane</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Airplane\PlaneXingFuAirlines.h">
+      <Filter>HTTP\Airplane</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\HardwareInfo\hardware360.h">
+      <Filter>HTTP\HardwareInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\HardwareInfo\hardwarebaiduchuanke.h">
+      <Filter>HTTP\HardwareInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\HardwareInfo\hardwarebaiduditu.h">
+      <Filter>HTTP\HardwareInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\HardwareInfo\hardwarebaiduyunpan.h">
+      <Filter>HTTP\HardwareInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\HardwareInfo\hardwareboke.h">
+      <Filter>HTTP\HardwareInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\HardwareInfo\hardwareduba.h">
+      <Filter>HTTP\HardwareInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\HardwareInfo\hardwareimooc.h">
+      <Filter>HTTP\HardwareInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\HardwareInfo\HardwareInfo.h">
+      <Filter>HTTP\HardwareInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\HardwareInfo\hardwareiqiyi.h">
+      <Filter>HTTP\HardwareInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\HardwareInfo\hardwarejumeiyoupin.h">
+      <Filter>HTTP\HardwareInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\HardwareInfo\hardwarekugou.h">
+      <Filter>HTTP\HardwareInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\HardwareInfo\hardwareliantong.h">
+      <Filter>HTTP\HardwareInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\HardwareInfo\hardwaremangguo.h">
+      <Filter>HTTP\HardwareInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\HardwareInfo\hardwaretaobao.h">
+      <Filter>HTTP\HardwareInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\HardwareInfo\hardwaretengxunshipin.h">
+      <Filter>HTTP\HardwareInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\HardwareInfo\hardwareweibo.h">
+      <Filter>HTTP\HardwareInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\HardwareInfo\hardwarexunlei.h">
+      <Filter>HTTP\HardwareInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Employ\Employ.h">
+      <Filter>HTTP\Employ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Employ\Employ51Job.h">
+      <Filter>HTTP\Employ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Employ\Employ58TongCheng.h">
+      <Filter>HTTP\Employ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Employ\EmployGanJi.h">
+      <Filter>HTTP\Employ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Employ\EmployKanZhunWang.h">
+      <Filter>HTTP\Employ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Employ\EmployQiLuRenCai.h">
+      <Filter>HTTP\Employ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Employ\EmployRuoLin.h">
+      <Filter>HTTP\Employ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Employ\EmployShuZiYingCai.h">
+      <Filter>HTTP\Employ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Employ\EmployXinJieWang.h">
+      <Filter>HTTP\Employ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Employ\EmployYiLanYingCai.h">
+      <Filter>HTTP\Employ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Employ\EmployZhiLianZhaoPin.h">
+      <Filter>HTTP\Employ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Employ\EmployZhiTong.h">
+      <Filter>HTTP\Employ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Employ\EmployZhiYouJi.h">
+      <Filter>HTTP\Employ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Employ\EmployZhongGuoRenCai.h">
+      <Filter>HTTP\Employ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Employ\EmployZhongHuaYingCai.h">
+      <Filter>HTTP\Employ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Employ\EmployZhuoBo.h">
+      <Filter>HTTP\Employ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Search\Search.h">
+      <Filter>HTTP\Search</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Search\SearchChinaSo.h">
+      <Filter>HTTP\Search</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Search\SearchSina.h">
+      <Filter>HTTP\Search</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Search\SearchSo360.h">
+      <Filter>HTTP\Search</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Search\SearchSoChina.h">
+      <Filter>HTTP\Search</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\VideoActivity\VideoActivity.h">
+      <Filter>HTTP\VideoActivity</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\VideoActivity\VideoActivityBaiDuYingYin.h">
+      <Filter>HTTP\VideoActivity</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\VideoActivity\VideoActivityBaoFengYingYin.h">
+      <Filter>HTTP\VideoActivity</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\VideoActivity\VideoActivityBiLiBiLi.h">
+      <Filter>HTTP\VideoActivity</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\VideoActivity\VideoActivityCCTV.h">
+      <Filter>HTTP\VideoActivity</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\VideoActivity\VideoActivityDiYiTV.h">
+      <Filter>HTTP\VideoActivity</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\VideoActivity\VideoActivityFun.h">
+      <Filter>HTTP\VideoActivity</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\VideoActivity\VideoActivityHuaShuTv.h">
+      <Filter>HTTP\VideoActivity</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\VideoActivity\VideoActivityIFeng.h">
+      <Filter>HTTP\VideoActivity</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\VideoActivity\VideoActivityIqiYi.h">
+      <Filter>HTTP\VideoActivity</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\VideoActivity\VideoActivityKuLiu.h">
+      <Filter>HTTP\VideoActivity</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\VideoActivity\VideoActivityLeShi.h">
+      <Filter>HTTP\VideoActivity</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\VideoActivity\VideoActivityMangGouTV.h">
+      <Filter>HTTP\VideoActivity</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\VideoActivity\VideoActivityMiaoPai.h">
+      <Filter>HTTP\VideoActivity</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\VideoActivity\VideoActivityPPs.h">
+      <Filter>HTTP\VideoActivity</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\VideoActivity\VideoActivityPpTv.h">
+      <Filter>HTTP\VideoActivity</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\VideoActivity\VideoActivitySoHu.h">
+      <Filter>HTTP\VideoActivity</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\VideoActivity\VideoActivityTouTiao.h">
+      <Filter>HTTP\VideoActivity</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\VideoActivity\VideoActivityTuDou.h">
+      <Filter>HTTP\VideoActivity</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\VideoActivity\VideoActivityWoLe.h">
+      <Filter>HTTP\VideoActivity</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\VideoActivity\VideoActivityXunLei.h">
+      <Filter>HTTP\VideoActivity</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\VideoActivity\VideoActivityYouKu.h">
+      <Filter>HTTP\VideoActivity</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\WebSite\WebSite.h">
+      <Filter>HTTP\WebSite</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\WebSite\Website51la.h">
+      <Filter>HTTP\WebSite</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\WebSite\WebSite51yes.h">
+      <Filter>HTTP\WebSite</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\WebSite\WebSiteAdmin88.h">
+      <Filter>HTTP\WebSite</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\WebSite\WebSiteBaiDuZhanZhang.h">
+      <Filter>HTTP\WebSite</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\WebSite\WebSiteChinaz.h">
+      <Filter>HTTP\WebSite</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\WebSite\WebSiteGoStats.h">
+      <Filter>HTTP\WebSite</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\WebSite\WebSiteTencent.h">
+      <Filter>HTTP\WebSite</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\WebSite\WebSiteWapWat.h">
+      <Filter>HTTP\WebSite</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Marriage\Marriage.h">
+      <Filter>HTTP\Marriage</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Marriage\MarriageBaiHe.h">
+      <Filter>HTTP\Marriage</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Marriage\MarriageHongNiang.h">
+      <Filter>HTTP\Marriage</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Marriage\MarriageHongXiuQiu.h">
+      <Filter>HTTP\Marriage</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Marriage\MarriageHuaTian.h">
+      <Filter>HTTP\Marriage</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Marriage\MarriageIZhenXin.h">
+      <Filter>HTTP\Marriage</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Marriage\MarriageJiaoYou.h">
+      <Filter>HTTP\Marriage</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Marriage\MarriageJiaYuan.h">
+      <Filter>HTTP\Marriage</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Marriage\MarriageLoveInHere.h">
+      <Filter>HTTP\Marriage</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Marriage\MarriageShanHunWang.h">
+      <Filter>HTTP\Marriage</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Marriage\MarriageSuPeiWang.h">
+      <Filter>HTTP\Marriage</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Marriage\MarriageTaoNan.h">
+      <Filter>HTTP\Marriage</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Marriage\MarriageTongChengYueHui.h">
+      <Filter>HTTP\Marriage</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Marriage\MarriageWoZaiZhaoNi.h">
+      <Filter>HTTP\Marriage</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Marriage\MarriageYiYuanWang.h">
+      <Filter>HTTP\Marriage</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Marriage\MarriageYlike.h">
+      <Filter>HTTP\Marriage</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Marriage\MarriageYouYuanWang.h">
+      <Filter>HTTP\Marriage</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Marriage\MarriageYuanLai.h">
+      <Filter>HTTP\Marriage</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Marriage\MarriageZhenAi.h">
+      <Filter>HTTP\Marriage</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Marriage\MarriageZhenQingZaiXian.h">
+      <Filter>HTTP\Marriage</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Marriage\MarriageZhiJiWang.h">
+      <Filter>HTTP\Marriage</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\FileTransfer\FileTransfer.h">
+      <Filter>HTTP\FileTransfer</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\FileTransfer\FileTransferZapya.h">
+      <Filter>HTTP\FileTransfer</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Hotel\Hotel.h">
+      <Filter>HTTP\Hotel</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Hotel\HotelCtrip.h">
+      <Filter>HTTP\Hotel</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Hotel\HotelElong.h">
+      <Filter>HTTP\Hotel</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Hotel\HotelLvmama.h">
+      <Filter>HTTP\Hotel</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Hotel\HotelPodinns.h">
+      <Filter>HTTP\Hotel</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Hotel\HotelQuner.h">
+      <Filter>HTTP\Hotel</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Hotel\HotelQyer.h">
+      <Filter>HTTP\Hotel</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Hotel\HotelRujia.h">
+      <Filter>HTTP\Hotel</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Hotel\HotelSuperEight.h">
+      <Filter>HTTP\Hotel</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Hotel\HotelTuniu.h">
+      <Filter>HTTP\Hotel</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Hotel\HotelYododo.h">
+      <Filter>HTTP\Hotel</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Hotel\HotelZhuna.h">
+      <Filter>HTTP\Hotel</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Software\Software.h">
+      <Filter>HTTP\Software</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Software\SoftwareBaiDu.h">
+      <Filter>HTTP\Software</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Software\SoftwareChinaz.h">
+      <Filter>HTTP\Software</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Software\SoftwareCr173.h">
+      <Filter>HTTP\Software</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Software\SoftwareCrsky.h">
+      <Filter>HTTP\Software</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Software\SoftwareDowng.h">
+      <Filter>HTTP\Software</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Software\SoftwareDownkr.h">
+      <Filter>HTTP\Software</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Software\SoftwareDownxia.h">
+      <Filter>HTTP\Software</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Software\SoftwareDuoTe.h">
+      <Filter>HTTP\Software</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Software\SoftwareGreentea.h">
+      <Filter>HTTP\Software</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Software\SoftwareGreenXF.h">
+      <Filter>HTTP\Software</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Software\SoftwareGreenXiaZai.h">
+      <Filter>HTTP\Software</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Software\SoftwareHao123.h">
+      <Filter>HTTP\Software</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Software\SoftwareHuacolor.h">
+      <Filter>HTTP\Software</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Software\SoftwareOnlineDown.h">
+      <Filter>HTTP\Software</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Software\SoftwareOrsoon.h">
+      <Filter>HTTP\Software</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Software\SoftwarePc141.h">
+      <Filter>HTTP\Software</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Software\SoftwarePc6.h">
+      <Filter>HTTP\Software</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Software\SoftwarePconline.h">
+      <Filter>HTTP\Software</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Software\SoftwareQQ.h">
+      <Filter>HTTP\Software</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Software\SoftwareSina.h">
+      <Filter>HTTP\Software</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Software\SoftwareSkycn.h">
+      <Filter>HTTP\Software</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Software\SoftwareSoGou.h">
+      <Filter>HTTP\Software</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Software\SoftwareTongYi.h">
+      <Filter>HTTP\Software</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Software\SoftwareWmzhe.h">
+      <Filter>HTTP\Software</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Software\SoftwareXdowns.h">
+      <Filter>HTTP\Software</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Software\SoftwareXiaZaiBa.h">
+      <Filter>HTTP\Software</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Software\SoftwareZol.h">
+      <Filter>HTTP\Software</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Supply\Supply.h">
+      <Filter>HTTP\Supply</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Supply\Supply58.h">
+      <Filter>HTTP\Supply</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Supply\SupplyGanji.h">
+      <Filter>HTTP\Supply</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Supply\SupplyYingCai.h">
+      <Filter>HTTP\Supply</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\InterfaceLogin\InterfaceLogin.h">
+      <Filter>HTTP\InterfaceLogin</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\InterfaceLogin\InterfaceLoginQQ.h">
+      <Filter>HTTP\InterfaceLogin</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\InterfaceLogin\InterfaceLoginRenRen.h">
+      <Filter>HTTP\InterfaceLogin</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\AQWS360.H">
+      <Filter>HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\BoundaryParser.h">
+      <Filter>HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\DealHttpGet.h">
+      <Filter>HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\FreeGate757.h">
+      <Filter>HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\http.h">
+      <Filter>HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\HttpPro.h">
+      <Filter>HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\HttpProObserver.h">
+      <Filter>HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\HttpProxy.h">
+      <Filter>HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\Https.h">
+      <Filter>HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\HttpSession.h">
+      <Filter>HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\NetHotTable.h">
+      <Filter>HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PCUniqueCode.h">
+      <Filter>HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneAD.h">
+      <Filter>HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneMap.h">
+      <Filter>HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneMediaApp.h">
+      <Filter>HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PhoneNumCheat.h">
+      <Filter>HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PostSplit.h">
+      <Filter>HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PostStruct.h">
+      <Filter>HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\ProtocolConfig.h">
+      <Filter>HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\PublicFun.h">
+      <Filter>HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\QQGet.h">
+      <Filter>HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\QQhttpSession.h">
+      <Filter>HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\StringManipulation.h">
+      <Filter>HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\TeSpread.h">
+      <Filter>HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\VoipMessage.h">
+      <Filter>HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\VoipUrl.h">
+      <Filter>HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\EMSS\YiXinHttpSession.h">
+      <Filter>HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ReadPara.h">
+      <Filter>SyncPara</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\SyncTable.h">
+      <Filter>SyncPara</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ZwString.h">
+      <Filter>SyncPara</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\compress\Lzw.h">
+      <Filter>compress</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\compress\Rle.h">
+      <Filter>compress</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HTTP\mobilemomo.h">
+      <Filter>手机软件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\json\json\autolink.h">
+      <Filter>json\jsonjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\json\json\config.h">
+      <Filter>json\jsonjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\json\json\features.h">
+      <Filter>json\jsonjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\json\json\forwards.h">
+      <Filter>json\jsonjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\json\json\json.h">
+      <Filter>json\jsonjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\json\json\reader.h">
+      <Filter>json\jsonjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\json\json\value.h">
+      <Filter>json\jsonjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\json\json\writer.h">
+      <Filter>json\jsonjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\json\json_batchallocator.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\json\json_tool.h">
+      <Filter>json</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Program Files\Microsoft Visual Studio\VC98\MFC\Include\AFX.INL">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Src\res\privatekey" />
+  </ItemGroup>
+</Project>

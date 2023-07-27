@@ -1,0 +1,31 @@
+
+#ifndef HTTP_CHATING_PROVIDESUPPORT_H_H_H
+#define HTTP_CHATING_PROVIDESUPPORT_H_H_H
+/************************************************************************/
+/* Provide Support 在线咨询                                             */
+/************************************************************************/
+#include "Chating.h"
+
+namespace chating
+{
+	class ProvideSupport : public Chating
+	{
+	public:
+		ProvideSupport(HttpSession *http_session, const string &pro_name);
+		~ProvideSupport();
+		static int IsProvideSupport(HttpSession *http_session);
+		int Process(const char *packet,int action);
+	private:
+		//皇冠 (现金网)
+		int PcHuangGuanSendMessage(const char *packet);
+		enum
+		{
+			kLogin = 1,
+			//皇冠 (现金网)
+			kPcHuangGuanSendMessage,
+		};
+		string GetAccount(const string &account);
+	};
+}
+
+#endif

@@ -1,0 +1,16 @@
+10:03 2009-1-10
+修改试用版注册码产生算法. 注册码版本调整为V5. V4版本试用码在项目间顺序变化下有可能出现不一致的情况,未完全实现设计时要求的顺序无关.
+
+2008-12-9
+修改获得硬盘串号实际, 适应电子盘获取失败的情况.
+
+2008-11-19
+修改读取配置文件接口. 
+改名, 由RBGetPrivateProfileString 改为 IMWGetPrivateProfileString, 参数不变
+改名, 由RbGetPrivateProfileInt 改为 IMWGetPrivateProfileInt, 参数不变.
+增加接口 IMWFreeBaseINIMap.
+修改, CheckSingleDog增加参数szStructDat, 用于指定许可文件位置, 默认值为NULL(d:\\sdzw\\ini\\struct.dat), 如果需要重新指定则传全路径. 
+
+IMWGet... 用于读取ini格式配置文件, 函数会自动判断配置文件是否加密(判断方法, 第一字符不为 [或250字节内无 ]\r\n则认为是加密后的, 需解密后读取).
+IMWGet... 读取
+程序结束或不再需要读取时IMWFreeBaseINIMap 释放占用内存. 调用IMWFree... 释放后, 再读取会重新装入. 但因为装入加密配置文件要进行解密操作会占用系统资源, 不宜频繁释放再读取.

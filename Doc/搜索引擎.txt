@@ -1,0 +1,97 @@
+baidu
+
+jingyan.baidu.com													百度经验
+news.baidu.com                            百度新闻
+tieba.baidu.com														百度贴吧
+zhidao.baidu.com                          百度知道
+music.baidu.com                           百度音乐
+image.baidu.com                           百度图片
+video.baidu.com                           百度视频
+map.baidu.com                             百度地图
+baike.baidu.com                           百度百科
+wenku.baidu.com                           百度文库
+www.baidu.com/s?                          百度网页
+
+google
+
+http://www.google.com.hk/search?newwindow=1&safe=strict&q=123456&bav=on.2,or.&bvm=bv.46226182,d.dGI&biw=1366&bih=555&wrapid=tlif136801594   tbm=isch  图片
+750010&um=1&ie=UTF-8&hl=zh-CN&tbm=isch&source=og&sa=N&tab=wi&ei=LESKUZTBDoubkwX39oGoDA
+
+http://www.google.com.hk/#q=123456&newwindow=1&safe=strict&source=lnms&tbm=vid&sa=X&ei=LESKUZTBDoubkwX39oGoDA&ved=0CAkQ_AUoAw&bav=on.2,or   tbm=vid   视频
+.&fp=a59e949190c80d1b&biw=1366&bih=555
+
+http://www.google.com.hk/search?q=123456&newwindow=1&safe=strict&hl=zh-CN&biw=1366&bih=555&ie=UTF-8&sa=N&tab=iw&ei=40CKUeHgL8aOlQW73IHQDg  web
+
+http://ditu.google.cn/maps?q=123456&newwindow=1&safe=strict&hl=zh-CN&biw=1366&bih=555&ie=UTF-8&sa=N&tab=il   				   ditu      地图
+
+http://www.google.com.hk/#q=123456&newwindow=1&safe=strict&tbm=bks&source=lnms&sa=X&ei=akSKUaj9EYqwkAWRkYDIBA&ved=0CAsQ_AUoAQ&bav=on.2,  tbm=bks     图书
+or.&fp=39d4f1d4ecabab04&biw=1366&bih=555
+
+http://www.google.com.hk/#q=123456&newwindow=1&safe=strict&tbm=blg&source=lnms&sa=X&ei=rUSKUeilOsmqkwWXo4HADA&ved=0CAwQ_AUoAg&bav=on.2,  tbm=blg    博客
+or.&fp=39d4f1d4ecabab04&biw=1366&bih=555
+
+http://www.google.com.hk/#q=123456&newwindow=1&safe=strict&tbm=klg&source=lnms&sa=X&ei=sUSKUb_TJMTRkwWK0IFI&ved=0CA4Q_AUoBA&bav=on.2,    tbm=klg  问答
+or.&fp=a59e949190c80d1b&biw=1366&bih=555
+
+http://www.google.com.hk/#q=123456&newwindow=1&safe=strict&tbm=app&source=lnms&sa=X&ei=2USKUcCPNYbxkAWY8oGgBw&ved=0CA8Q_AUoBQ&bav=on.    tbm=app  应用
+2,or.&fp=a59e949190c80d1b&biw=1366&bih=555
+
+
+http://www.google.com.hk/#q=123456&newwindow=1&safe=strict&tbm=pts&source=lnms&sa=X&ei=AEWKUZyYII2vkgX9gYHADA&ved=0CBAQ_AUoBg&bav=on.2	 tbm=pts  专利
+,or.&fp=a59e949190c80d1b&biw=1366&bih=555
+
+
+http://www.google.com.hk/finance?q=123456&newwindow=1&safe=strict&bav=on.2,or.&bvm=bv.46226182,d.dGI&biw=1366&bih=555&wrapid=tlif1368021  /finance? 财经
+08542210&um=1&hl=zh-CN&ie=UTF-8&sa=N&tab=ie
+
+http://picasaweb.google.com.hk/lh/view?newwindow=1&safe=strict&hl=zh-CN&biw=1366&bih=555&q=123456&ie=UTF-8&sa=N&tab=iq                   picasaweb.google.com 相册
+
+http://www.google.com.hk/#q=123456&newwindow=1&safe=strict&source=lnms&tbm=frm&sa=X&ei=3FmKUcaeBMq3kgXg5YHABA&ved=0CA0Q_AUoAw&bav=on.2   tbm=frm   论坛
+,or.&fp=a59e949190c80d1b&biw=1366&bih=555
+
+http://translate.google.cn/?q=123456&newwindow=1&safe=strict&bav=on.2,or.&biw=1366&bih=555&wrapid=tlif136802147428110&um=1&ie=UTF-8&hl=  translate.google.cn 翻译
+、zh-CN&sa=N&tab=wT
+
+
+sogou
+
+
+http://www.sogou.com/web?query=123456&_asf=www.sogou.com&_ast=1368015571&w=01019900&p=40040100&ie=utf8&sut=8993&sst0=1368015571389   /web?query=  网页
+
+http://v.sogou.com/v?p=40230304&query=123456&sourceid=inttab_web&interV=kKIOkrELjbkPmLkEk7wTkKIMkrELjboImLkEk74TkKILmrELjboLmLkEkr   v.sogou.com/v? 视频
+4TkKIRmLkEk78TkKIL%0AkbELjboN_-1351969281
+
+http://www.sogou.com/web?query=123456&interation=196634&chuidq=26&interV=kKIOkrELjbkPmLkEk7wTkKIMkrELjboImLkEk74TkKILmrELjboLmLkEkr  sourceid=inttab_videoOnline 摄影
+4TkKIRmLkEk78TkKIL%0AkbELjboN_-1351969281&sourceid=inttab_videoOnline                                                                www.sogou.com/web?
+
+
+http://news.sogou.com/news?p=40230205&query=123456&sourceid=inttab_photography&interV=kKIOkrELjbkPmLkEk7wTkKIMkrELjboImLkEk74TkKILm  news.sogou.com/news? 新闻
+rELjboLmLkEkr4TkKIRmLkEk78TkKIL%0AkbELjboN_-1351969281
+
+http://www.sogou.com/web?query=123456&interation=196648&chuidq=40&sourceid=inttab_news						     sourceid=inttab_news 论坛
+
+
+http://zhishi.sogou.com/zhishi?query=123456&sourceid=inttab_bbs&interV=kKIOkrELjbkPmLkEk7wTkKIMkrELjboImLkEk74TkKILmrELjboLmLkEkr4Tk zhishi.sogou.com/zhishi? 知识
+KIRmLkEk78TkKIL%0AkbELjboN_-1351969281
+
+http://map.sogou.com/?p=40031000&kw=123456											     map.sogou.com/?p     地图
+
+http://gouwu.sogou.com/?p=40041300&kw=123456                                                                                         gouwu.sogou.com       购物
+
+http://mp3.sogou.com/?p=40031000&kw=123456											     mp3.sogou.com/?p     音乐
+
+
+
+bing
+
+http://cn.bing.com/search?q=123456&qs=n&form=QBLH&pq=123456&sc=8-6&sp=-1&sk=							 /search?q		    网页
+
+http://cn.bing.com/images/search?q=123456&FORM=HDRSC2										 cn.bing.com/images/search? 图片
+
+http://cn.bing.com/videos/search?q=123456&FORM=HDRSC3										 cn.bing.com/videos/search? 视频
+
+http://cn.bing.com/ditu/?q=123456&mkt=zh&FORM=HDRSC4#										 cn.bing.com/ditu/?         地图
+
+http://cn.bing.com/news/search?q=123456&FORM=HDRSC6										 cn.bing.com/news/search?   资讯
+
+http://cn.bing.com/dict/search?intlF=0&q=123456&FORM=HDRSC7									 cn.bing.com/dict/search?   词典
